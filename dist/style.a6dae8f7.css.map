@@ -1,1 +1,0 @@
-{"version":3,"sources":["scss\\style.scss"],"names":[],"mappings":"AAAA;EACI;;AAEA;EACI","file":"style.a6dae8f7.css","sourceRoot":"..","sourcesContent":[".block {\r\n    background-color: #000;\r\n    \r\n    p {\r\n        color: red;\r\n    }\r\n}"]}
