@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "name": "Dnepr-masterOK",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LiMar17/dnepr-masterok.git",
+  "author": "LiMar17 <limarkus2073@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.37.5"
+  }
+}
