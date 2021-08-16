@@ -7,3 +7,5 @@ git commit -m "txt" (сохранить комит)
 git push (отправлять в облачное хранения)
 
 git pull (витягнути зміни)
+
+parcel src/index.pug ()

@@ -1,7 +1,125 @@
-.block {
-    background-color: #000;
-    
+body {
+    margin: 0;
+    // background-image: url(../img/vskryt.jpg);
+    background-color: rgb(204, 204, 95);
+}
+
+.container {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0 15px 0 15px;
+}
+
+.contacts {
+    background-color: rgb(223, 210, 26);
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
     p {
-        color: red;
+        margin: 0;
+    }
+    .open-locks-of-any-complexity {
+        padding: 0 0 0 150px;
+        display: flex;
+        align-items: center;
+        p {
+            padding-left: 10px;
+        }
+    }
+    .menu-numbers {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 35%;
+        padding: 0 150px 0 0 ;
+        .around-the-clock {
+            display: flex;
+            align-items: center;
+            p {
+                padding-left: 10px;
+            }
+        }
+        .numbers {
+            padding-left: 10px;
+        }
+        a {
+            color: black;
+            // text-decoration: none;
+        }
+        a:hover {
+            color: #ff2600; 
+            // border-bottom: .07em solid;
+        }
+    }
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    .logo img {
+        max-width: 200px;
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-between;
+            a {
+                text-decoration: none;
+                color: rgb(255, 238, 0);
+            }
+            a:hover {
+                color: black;
+            }
+        }
     }
 }
+
+.main-vstup {
+    margin: 170px 0 0 20px;
+    display: flex;
+    h1 {
+        padding-bottom: 50px;
+    }
+    li {
+        padding-bottom: 35px;
+    }
+    .buttons {
+        display: flex;
+        .second-button {
+            margin-left: 50px;
+            background-color: rgb(255, 238, 0);
+            color: black;
+            border-radius: 20px;
+            border: black;
+            width: 230px;
+            height: 75px;
+        }
+        .first-button {
+            background-color: black;
+            color: rgb(255, 238, 0);
+            border-radius: 20px;
+            border: rgb(255, 238, 0);
+            width: 230px;
+            height: 75px;
+        }
+        .first-button:hover {
+            color: black;
+            background-color: rgb(255, 238, 0);
+            border: black;
+        }
+        .second-button:hover {
+            background-color: black;
+            color: rgb(255, 238, 0);
+            border: rgb(255, 238, 0);
+        }
+    }
+
+}
+
