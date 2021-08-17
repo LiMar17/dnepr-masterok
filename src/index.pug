@@ -1,77 +1,84 @@
 doctype html
 html(lang="en")
-//- reduce indentation here
-head
-  meta(charset="UTF-8")
-  meta(http-equiv="X-UA-Compatible" content="IE=edge")
-  meta(name="viewport" content="width=device-width, initial-scale=1.0")
-  title Document
-  link(rel="stylesheet" href="scss/style.scss")
-//- and here
-//- change spaces to "2". You have to change it also
-body 
-  .contacts
-    //- hard & unneccesary class names must be avoided
-    .open-locks-of-any-complexity
-      img(src="img/key-variant.png" alt="")
-      p Відкриваємо замки будь-якої складності
-    .menu-numbers
-      //- hard & unneccesary class names must be avoided
-      .work-around-the-clock
-        .around-the-clock  
-          img(src="img/alarm.png" alt="")
-          p Працюємо цілодобово
-      .first-number 
-        div  
-          img(src="img/account-arrow-right.png" alt="")
-          a(href="#" class="numbers") 066 172 03 52
-      .second-number 
-        div 
-          img(src="img/account-arrow-right.png" alt="")
-          a(href="#" class="numbers") 097 753 34 60
-  
-  //- hard & unneccesary class names must be avoided
-  .container-for-background-image 
+  //- reduce indentation here
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet" href="scss/style.scss")
+  //- and here
+  //- change spaces to "2". You have to change it also
+  body 
+    //- use header 
+    header
+      .container
+        .slogan
+        .contacts 
 
-    .container  
-      //- first-section-vstup
-      //- use english words. "Intro", for example
-      .Vstup   
-        .header 
-          .logo 
-            img(src="img/logo.png" alt="")
-          .nav 
-            ul
-              li
-                a(href="#") Послуги і ціни
-              li
-                a(href="#") Етапи 
-              li
-                a(href="#") Факти
-              li
-                a(href="#") Переваги
-              li
-                a(href="#") Замовити дзвінок
-        //- the same naming mistake
-        .main-vstup
-          .left-column  
-            h1 АВАРІЙНЕ ВІДКРИТТЯ ЗАМКІВ
-            ul
-              li  ПРИЇДЕМО ПРОТЯГОМ 20 ХВИЛИН                              
-              li  ВІДКРИВАЄМО ВСІ ВИДИ ЗАМКІВ
-              li  БЕЗ ПОШКОДЖЕННЯ ЗАМКУ
-              li  КОНФІДЕНЦІЙНО
-              li  від 600 грн
-            .buttons 
-              div
-                button.first-button  ВИКЛИКАТИ МАЙСТРА
-              div
-                button.second-button РОЗРАХУНОК ВАРТОСТІ
-          .right-column 
-            //- hard & unneccesary class names must be avoided
-            //- write short and logical names
-            .image-phone-with-contacts
-              img(src="img/2.png" alt="")
+      
+    .contacts
+      //- hard & unneccesary class names must be avoided
+      .open-locks-of-any-complexity
+        img(src="img/key-variant.png" alt="")
+        p Відкриваємо замки будь-якої складності
+      .menu-numbers
+        //- hard & unneccesary class names must be avoided
+        .work-around-the-clock
+          .around-the-clock  
+            img(src="img/alarm.png" alt="")
+            p Працюємо цілодобово
+        .first-number 
+          div  
+            img(src="img/account-arrow-right.png" alt="")
+            a(href="#" class="numbers") 066 172 03 52
+        .second-number 
+          div 
+            img(src="img/account-arrow-right.png" alt="")
+            a(href="#" class="numbers") 097 753 34 60
+    
+    //- hard & unneccesary class names must be avoided
+    .container-for-background-image 
+
+      .container  
+        //- first-section-vstup
+        //- use english words. "Intro", for example
+        .Vstup   
+          .header 
+            .logo 
+              img(src="img/logo.png" alt="")
+            .nav 
+              ul
+                li
+                  a(href="#") Послуги і ціни
+                li
+                  a(href="#") Етапи 
+                li
+                  a(href="#") Факти
+                li
+                  a(href="#") Переваги
+                li
+                  a(href="#") Замовити дзвінок
+          //- the same naming mistake
+          .main-vstup
+            .left-column  
+              h1 АВАРІЙНЕ ВІДКРИТТЯ ЗАМКІВ
+              ul
+                li  ПРИЇДЕМО ПРОТЯГОМ 20 ХВИЛИН                              
+                li  ВІДКРИВАЄМО ВСІ ВИДИ ЗАМКІВ
+                li  БЕЗ ПОШКОДЖЕННЯ ЗАМКУ
+                li  КОНФІДЕНЦІЙНО
+                li  від 600 грн
+              .buttons 
+                div
+                  button.first-button  ВИКЛИКАТИ МАЙСТРА
+                div
+                  button.second-button РОЗРАХУНОК ВАРТОСТІ
+            .right-column 
+              //- hard & unneccesary class names must be avoided
+              //- write short and logical names
+              .image-phone-with-contacts
+                img(src="img/2.png" alt="")
 
 
 
