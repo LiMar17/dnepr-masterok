@@ -1,17 +1,37 @@
-body {
-    margin: 0;
-    // background-image: url(../img/vskryt.jpg);
-    background-color: rgb(204, 204, 95);
-}
+// import another files to use their code
+@import 'colors';
+@import 'helpers';
 
-.container {
-        margin: 0 auto;
-        max-width: 1200px;
-        padding: 0 15px 0 15px;
+// there's no need to reset anything
+// bulma will do it for us
+// body {
+    // margin: 0;
+    // background-image: url(../img/vskryt.jpg);
+    // we'll use colors later
+    // background-color: rgb(204, 204, 95);
+// }
+
+// there's no need in container anymore. 
+// We can use bulma's 
+// .container {
+//         margin: 0 auto;
+//         max-width: 1200px;
+//         padding: 0 15px 0 15px;
+// }
+
+.info {
+    i {
+        margin: 0 15px 0 0;
+    }
+
+    a {
+        color: var(--white);
+        text-decoration: underline;
+    }
 }
 
 .contacts {
-    background-color: rgb(223, 210, 26);
+    // background-color: rgb(223, 210, 26);
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -55,9 +75,10 @@ body {
     }
 
 }
+
 .header {
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     max-width: 60%;
     .logo img {
         max-width: 200px;

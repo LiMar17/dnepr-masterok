@@ -1,0 +1,17 @@
+// this is css variables
+// all modern browsers support them
+// root is like an <html> tag
+// all variables are accessible through :root directive 
+:root {
+  --black: #000;
+  --white: #fff;
+  --yellow-green: rgb(204, 204, 95);
+}
+
+header {
+  // don't use 'background-color' property.
+  // use all-in-one background property instead
+  background: var(--black);
+  color: var(--white);
+  
+}

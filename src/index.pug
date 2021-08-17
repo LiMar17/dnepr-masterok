@@ -14,15 +14,32 @@ html(lang="en")
   body 
     //- use header 
     header
-      .container
-        .slogan
-        .contacts 
+      .container.columns-between-valigned
+        .slogan.info
+          i.fas.fa-unlock-alt
+          | Відкриваємо замки будь-якої складності
+        .contacts.columns-around.spaced-around
+          .info 
+            i.fas.fa-clock 
+            | Працюємо цілодобово
+          .info
+            //- you need to make links 'callable'
+            //- this means when you click,
+            //- you make instant call from any device
+            //- google how to make this
+            a 
+              i.fas.fa-mobile 
+              | 066 172 03 52
+          .info  
+            a 
+              i.fas.fa-mobile 
+              | 097 753 34 60
 
       
     .contacts
       //- hard & unneccesary class names must be avoided
-      .open-locks-of-any-complexity
-        img(src="img/key-variant.png" alt="")
+      //- .open-locks-of-any-complexity
+        //- img(src="img/key-variant.png" alt="")
         p Відкриваємо замки будь-якої складності
       .menu-numbers
         //- hard & unneccesary class names must be avoided
@@ -38,6 +55,10 @@ html(lang="en")
           div 
             img(src="img/account-arrow-right.png" alt="")
             a(href="#" class="numbers") 097 753 34 60
+
+            //- PLEASE, compare your code & mine. 
+            //- try to understand what was improved
+            //- and how to write more consious & effective code
     
     //- hard & unneccesary class names must be avoided
     .container-for-background-image 
