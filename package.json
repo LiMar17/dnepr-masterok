@@ -2,6 +2,9 @@
   "dependencies": {
     "parcel-bundler": "^1.12.5"
   },
+  "scripts": {
+    "dev": "parcel src/index.pug"
+  },
   "name": "Dnepr-masterOK",
   "version": "1.0.0",
   "main": "index.js",
