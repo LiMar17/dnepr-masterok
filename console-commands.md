@@ -7,6 +7,8 @@
 - git commit -m "txt" (сохранить комит)
 - git push (отправлять в облачное хранения)
 
+- git stash (откатить локальные изменения)
+
 - git pull (витягнути зміни)
 
 # Bundler commands
