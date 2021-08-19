@@ -15,4 +15,4 @@
 - parcel src/index.pug (run parcel bundler)
 
 # Console commands
-- list future commands here
+- yarn install (установить или обновить библиотеки)
