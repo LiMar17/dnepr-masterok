@@ -17,6 +17,13 @@ $desktop-s: 1024px;
         }
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .header {
+        margin: 0 5px 0 5px;
+    }
+}
+
 @media screen and (min-width: $desktop-s){
     .header {
         font-size: 18px;
