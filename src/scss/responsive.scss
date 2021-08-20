@@ -1,0 +1,31 @@
+$tablet: 768px;
+$desktop-s: 1024px;
+
+@media screen and (min-width: $tablet) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .contacts {
+            display: flex;
+
+            .info {
+                margin: 0 0 0 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $desktop-s){
+    .header {
+        font-size: 18px;
+        .contacts{
+            
+            .info {
+                font-size: 18px;
+                margin: 0 0 0 20px;
+            }
+        }
+    }
+}

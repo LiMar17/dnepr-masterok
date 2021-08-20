@@ -8,13 +8,14 @@ html(lang="en")
     link(rel="stylesheet" href="scss/style.scss")
     link(rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css")
     link(rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css")
+    link(rel="stylesheet" href="scss/responsive.scss")
   body  
-    header
-      .container.columns-between-valigned
+    header.has-text-centered
+      .container.header
         .slogan.info
           i.fas.fa-unlock-alt
           | Відкриваємо замки будь-якої складності
-        .contacts.columns-around.spaced-around
+        .contacts
           .info 
             i.fas.fa-clock 
             | Працюємо цілодобово
@@ -23,11 +24,11 @@ html(lang="en")
             //- this means when you click,
             //- you make instant call from any device
             //- google how to make this
-            a 
+            a(href='tel:0661720352')
               i.fas.fa-mobile 
               | 066 172 03 52
           .info  
-            a 
+            a(href='tel:0977533460') 
               i.fas.fa-mobile 
               | 097 753 34 60
             //- PLEASE, compare your code & mine. 
@@ -37,7 +38,7 @@ html(lang="en")
     .background-image
       .container  
         //- first-section-vstup
-        .Intro  
+        .intro  
           .menu  
             .logo 
               img(src="img/logo.png" alt="")
