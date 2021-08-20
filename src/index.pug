@@ -1,6 +1,5 @@
 doctype html
 html(lang="en")
-  //- reduce indentation here
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
@@ -9,10 +8,7 @@ html(lang="en")
     link(rel="stylesheet" href="scss/style.scss")
     link(rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css")
     link(rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css")
-  //- and here
-  //- change spaces to "2". You have to change it also
-  body 
-    //- use header 
+  body  
     header
       .container.columns-between-valigned
         .slogan.info
@@ -34,40 +30,15 @@ html(lang="en")
             a 
               i.fas.fa-mobile 
               | 097 753 34 60
-
-      
-    .contacts
-      //- hard & unneccesary class names must be avoided
-      //- .open-locks-of-any-complexity
-        //- img(src="img/key-variant.png" alt="")
-        p Відкриваємо замки будь-якої складності
-      .menu-numbers
-        //- hard & unneccesary class names must be avoided
-        .work-around-the-clock
-          .around-the-clock  
-            img(src="img/alarm.png" alt="")
-            p Працюємо цілодобово
-        .first-number 
-          div  
-            img(src="img/account-arrow-right.png" alt="")
-            a(href="#" class="numbers") 066 172 03 52
-        .second-number 
-          div 
-            img(src="img/account-arrow-right.png" alt="")
-            a(href="#" class="numbers") 097 753 34 60
-
             //- PLEASE, compare your code & mine. 
             //- try to understand what was improved
             //- and how to write more consious & effective code
-    
-    //- hard & unneccesary class names must be avoided
-    .container-for-background-image 
 
+    .background-image
       .container  
         //- first-section-vstup
-        //- use english words. "Intro", for example
-        .Vstup   
-          .header 
+        .Intro  
+          .menu  
             .logo 
               img(src="img/logo.png" alt="")
             .nav 
@@ -82,8 +53,7 @@ html(lang="en")
                   a(href="#") Переваги
                 li
                   a(href="#") Замовити дзвінок
-          //- the same naming mistake
-          .main-vstup
+          .main-intro
             .left-column  
               h1 АВАРІЙНЕ ВІДКРИТТЯ ЗАМКІВ
               ul
@@ -98,9 +68,7 @@ html(lang="en")
                 div
                   button.second-button РОЗРАХУНОК ВАРТОСТІ
             .right-column 
-              //- hard & unneccesary class names must be avoided
-              //- write short and logical names
-              .image-phone-with-contacts
+              .contacts-phone
                 img(src="img/2.png" alt="")
 
 
