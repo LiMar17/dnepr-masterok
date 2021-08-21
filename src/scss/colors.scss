@@ -1,7 +1,8 @@
 :root {
   --black: #000;
   --white: #fff;
-  --yellow-green: rgb(204, 204, 95);
+  --yellow: rgb(235, 215, 36);
+  --goldenrod: rgb(255, 230, 2);
 }
 
 header {
@@ -13,5 +14,21 @@ header {
 .info {
   a, a:hover {
     color: var(--white);
+  }
+}
+
+.buttons {
+  .first-button {
+    color: var(--white);
+    background: var(--yellow);
+  }
+  .first-button:hover {
+    background: var(--goldenrod);
+  }
+  .second-button {
+    color: var(--white);
+  }
+  .second-button:hover {
+    background-color: rgb(160, 158, 158);
   }
 }

@@ -77,6 +77,12 @@
 
 // }
 
+.intro {
+    // margin: 0 auto;
+    // max-width: 1200px;
+    margin: 0 150px 0 150px;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -92,7 +98,7 @@
             list-style-type: none;
             a {
                 text-decoration: none;
-                color: rgb(73, 69, 69);
+                color: rgb(70, 65, 65);
             }
             a:hover {
                 color: black;
@@ -112,6 +118,23 @@
     }
     li {
         padding-bottom: 35px;
+    }
+    .buttons {
+        button {
+            width: 230px;
+            height: 55px;
+            font-size: 16px;
+        }
+        .first-button {
+            border-radius: 35px;
+            border: none;
+        }
+        .second-button {
+            border: 3px solid white;
+            border-radius: 5px;
+            opacity: 10%;
+        }
+        
     }
     // .buttons {
     //     display: flex;
