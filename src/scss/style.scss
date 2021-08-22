@@ -82,7 +82,7 @@
     // display: flex;
     // justify-content: space-between;
     .logo img {
-        max-width: 200px;
+        max-width: 250px;
     }
     .nav {
         // display: flex;
@@ -103,16 +103,16 @@
 }
 
 .main-intro {
-    // margin: 170px 0 0 20px;
-    // display: flex;
+    margin: 75px 0 0 130px;
+    display: flex;
     h1 {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     ul {
         list-style-type: square;
     }
     li {
-        padding-bottom: 35px;
+        padding-bottom: 30px;
     }
 
 .button-container {
