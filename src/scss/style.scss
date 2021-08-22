@@ -1,5 +1,6 @@
 // import another files to use their code
 @import 'colors';
+@import 'fonts';
 @import 'helpers';
 
 // there's no need to reset anything
@@ -77,24 +78,18 @@
 
 // }
 
-.intro {
-    // margin: 0 auto;
-    // max-width: 1200px;
-    margin: 0 150px 0 150px;
-}
-
 .menu {
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     .logo img {
         max-width: 200px;
     }
     .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
         ul {
-            display: flex;
+            // display: flex;
             list-style-type: none;
             a {
                 text-decoration: none;
@@ -108,8 +103,8 @@
 }
 
 .main-intro {
-    margin: 170px 0 0 20px;
-    display: flex;
+    // margin: 170px 0 0 20px;
+    // display: flex;
     h1 {
         padding-bottom: 50px;
     }
@@ -119,23 +114,25 @@
     li {
         padding-bottom: 35px;
     }
-    .buttons {
-        button {
-            width: 230px;
-            height: 55px;
-            font-size: 16px;
-        }
-        .first-button {
-            border-radius: 35px;
-            border: none;
-        }
-        .second-button {
-            border: 3px solid white;
-            border-radius: 5px;
-            opacity: 10%;
-        }
-        
+
+.button-container {
+
+    .button {
+        font-size: 18px;
+        padding: 15px 30px;
     }
+
+    .orange-button {
+        border-radius: 35px;
+        border: none;
+    }
+    .price-button {
+        border: 3px solid white;
+        border-radius: 5px;
+        // opacity: 10%;
+    }
+    
+}
     // .buttons {
     //     display: flex;
     //     .second-button {

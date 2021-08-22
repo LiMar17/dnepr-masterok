@@ -1,34 +1,48 @@
-:root {
-  --black: #000;
-  --white: #fff;
-  --yellow: rgb(235, 215, 36);
-  --goldenrod: rgb(255, 230, 2);
-}
+$white: white;
+$black: black;
+$yellow: rgb(235, 215, 36);
+$goldenrod: rgb(255, 230, 2);
+$grey: rgb(160, 158, 158);
+$orange: #fab005;
 
 header {
-  background: var(--black);
-  color: var(--white);
-
+  background: $black;
+  color: $white;
 }
 
 .info {
   a, a:hover {
-    color: var(--white);
+    color: $white;
   }
 }
 
-.buttons {
-  .first-button {
-    color: var(--white);
-    background: var(--yellow);
-  }
-  .first-button:hover {
-    background: var(--goldenrod);
-  }
-  .second-button {
-    color: var(--white);
-  }
-  .second-button:hover {
-    background-color: rgb(160, 158, 158);
+// buttons in intro section
+.button-container {
+  .button {
+    color: $white;
+    transition: background .7s;
+    
+    &:hover {
+      color: $white;
+    }
+    
+    // orange button
+    &.is-orange {
+      background: $orange;
+      border-radius: 30px;
+      
+      &:hover {
+        background: $black;
+      }
+    }
+    
+    // price button
+    &.is-price-button {
+      border: 2px solid $white;
+      
+      &:hover {
+        background: $orange;
+      }
+    }
   }
 }
