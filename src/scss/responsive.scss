@@ -16,6 +16,9 @@ $desktop-s: 1024px;
             }
         }
     }
+    .buttons {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 426px) {
