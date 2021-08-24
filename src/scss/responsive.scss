@@ -1,14 +1,17 @@
+$mobile-s: 320px;
 $mobile-l: 425px;
 $tablet: 768px;
 $desktop-s: 1024px;
 $desktop-l: 1440px;
 
+// adaptive to tablet<
 @media screen and (min-width: $tablet) {
+    // header
     .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        // margin: 0 5px 0 5px;
         .contacts {
             display: flex;
 
@@ -18,80 +21,159 @@ $desktop-l: 1440px;
             }
         }
     }
-    .buttons {
-        display: flex;
+
+    // menu
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .nav {
+        margin: 0;
+        ul {
+          display: flex;
+          justify-content: space-around;
+          li {
+            margin: 0 10px 0 0;
+          }
+          li a {
+            font-weight: normal;
+          }
+        }
+      }
+      .logo {
+        max-width: 250px;
+      }
+      
+    }
+
+    // main-intro
+    .main-intro {
+      display: flex;
+      // justify-content: center;
+      margin: 0 0 50px 80px;
+      .left-column {
+        .text {
+          text-align: start;
+        }
+      }
+      // .button-container {
+      //     max-width: 235px;
+      // }
     }
 }
 
-.menu {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    .logo {
-        width: 100%;
-    }
-    .logo img {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    .nav{
-        margin: 0 auto;
-        ul {
-            // flex-direction: column;
-            text-align: center;
-            max-width: 100%;
-            li {
-                margin-bottom: 10px;
-                font-weight: bold;
-            }
-        }
-    }
+
+
+// adaptive to mobile-s<
+@media screen and (min-width: $mobile-s) {
+  // menu
+  .menu {
+      .logo {
+          width: 100%;
+      }
+      .logo img {
+          max-width: 100%;
+          margin: 0 auto;
+      }
+      .nav {
+          // margin: 0 auto;
+          ul {
+              text-align: center;
+              max-width: 100%;
+              li {
+                  // margin-bottom: 10px;
+                  font-weight: bold;
+              }
+          }
+      }
+  }
+
+  // main-intro
+  .main-intro {
+      .left-column {
+          text-align: center;
+          h1 {
+              margin-top: 20px;
+              font-size: 35px;
+              padding-bottom: 0;
+          }
+          ul {
+              li {
+                  padding-bottom: 10px;
+              }
+          }
+      }
+  }
 }
 
-.main-intro {
-    // display: flex;
-    // flex-direction: column;
-    // margin: 0;
-    .left-column {
-        text-align: center;
-        h1 {
-            margin-top: 20px;
-            font-size: 35px;
-            padding-bottom: 0;
-        }
-        ul {
-            li {
-                padding-bottom: 10px;
-            }
-        }
-        .buttons {
-            // justify-content: center;
-            .first-button {
-                margin: 20px 0 20px 0;
-            }
-            .second-button {
-                margin-bottom: 25px;
-            }
-        }
-    }
-}
+// @media screen and (max-width: 1023px) {
+//     .header {
+//         margin: 0 5px 0 5px;
+//     }
 // }
 
-@media screen and (max-width: 1023px) {
-    .header {
-        margin: 0 5px 0 5px;
-    }
-}
 
+
+
+// adaptive to desktop-s<
 @media screen and (min-width: $desktop-s){
     .header {
         font-size: 18px;
         .contacts{
-            
             .info {
                 font-size: 18px;
                 margin: 0 0 0 20px;
             }
         }
+    }
+
+    .menu {
+      .nav {
+         ul {
+          li {
+            a {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .main-intro {
+      margin: 50px 0 50px 150px;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+
+    // .button-container {
+    //   max-width: 235px;
+    // }
+
+    // .is-orange {
+    //   padding: 20px 25px 20px 25px;
+    // }
+}
+
+
+
+
+// adaptive to desktop-l<
+@media screen and (min-width: $desktop-l) {
+    .menu {
+      margin: 0 100px 50px 100px;
+    }
+
+    .main-intro {
+      margin: 0 0 0 150px;
+      justify-content: center;
+      h1 {
+        font-size: 70px;
+      }
+      li {
+        font-size: 20px;
+        margin-bottom: 15px;
+        // font-weight: bold;
+      }
     }
 }
