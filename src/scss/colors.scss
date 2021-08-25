@@ -1,93 +1,84 @@
 $white: white;
-$white-transparent: rgba(255,255,255,.65);
+$almost-white: rgba(255,255,255,.65);
 
 $almost-black: #222;
 $black: black;
 
-$grey: rgb(160, 158, 158);
 $light-grey: #8d99ae;
+$grey: #4a4a4a;
 $dark-grey: #54617a;
 
+$light-blue: #f5fafd;
 $dark-blue: #50a2eb;
 
-$goldenrod: rgb(255, 230, 2);
-$yellow: rgb(235, 215, 36);
 $orange: #fab005;
 
-header {
-  background: $almost-black;
+/* FONT COLORS */
+html, 
+p {
+  color: $light-grey;
+}
+
+.header, 
+.header a,
+.header a:hover, 
+.hero-title,
+.list,
+.button,
+.callback .title,
+.callback .subtitle
+{
   color: $white;
 }
 
-.info {
-  a, a:hover {
-    color: $white;
-  }
+.nav {
+  color: $almost-white;
 }
 
-// buttons in intro section
-.button-container {
-  .button {
-    color: $white;
-    transition: background .7s;
-    
-    &:hover {
-      color: $white;
-    }
-    
-    // orange button
-    &.is-orange {
-      background: $orange;
-      border-radius: 30px;
-      
-      &:hover {
-        background: $black;
-      }
-    }
-    
-    // price button
-    &.is-price-button {
-      border: 2px solid $white;
-      
-      &:hover {
-        background: $orange;
-      }
-    }
-  }
+.title,
+.contacts a,
+.card .title
+{
+  color: $dark-grey;
 }
 
-// contacts
-
-.contacts {
-
-  h2, a {
-    color: $dark-grey;
-  }
-
-  a {
-    transition: color .5s;
-  }
-
-  a:hover {
-    color: $dark-blue;
-  }
-
-  .callback {
-
-    .button {
-      background: $orange;
-      color: $white;
-      font-weight: bold;
-      border: 0;
-    }
-
-    p {
-      color: $light-grey;
-    }
-  }
-
+.form,
+.card.metrics
+{
+  color: $grey;
 }
 
+.card.metrics .description,
+.card.is-horizontal .title,
+.footer 
+{
+  color: $orange;
+}
+
+/* BACKGROUNDS */
+.header,
+.footer {
+  background: $almost-black;
+}
+
+.intro-section {
+  background: $black;
+}
+
+.service-section {
+  background: $light-blue;
+}
+
+.button.is-orange {
+  background: $orange;
+}
+
+/* TRANSITIONS */
+.button,
+a
+{
+  transition: all .8s;
+}
 
 
 // favors-prices
@@ -98,4 +89,15 @@ header {
   .subtitle {
     color: $light-grey;
   }
+}
+
+
+/* HOVERS */
+.contacts a:hover {
+  color: $dark-blue;
+}
+
+/* BORDERS */
+.button.price-button {
+  border: 2px solid $white;
 }

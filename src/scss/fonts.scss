@@ -1,35 +1,79 @@
+$fz-14: 0.9rem;
+$fz-16: 1rem;
+$fz-18: 1.25rem;
+$fz-20: 1.4rem;
+$fz-21: 1.5rem;
+$fz-24: 1.7rem;
+$fz-34: 2.4rem;
+$fz-45: 3.2rem;
+$fz-50: 3.5rem;
+
+// точка отчета -- наш html. 
+// все остальные шрифты будут брать
+// размер от него (rem, em и т.д)
+
+// Почитай эти статьи, чтобы разобраться
 // https://habr.com/ru/post/280125/
 // https://learn.javascript.ru/css-units
 
-$font-size-regular: 16px;
-
+/* FONT FAMILY */
 html {
-  font-size: $font-size-regular;
-}
-
-
-
-$big: 60px;
-
-
-body {
   font-family: 'Roboto', sans-serif;
 }
 
-h2 {
+.title,
+.subtitle,
+.card .description
+{
   font-family: 'Roboto Light', sans-serif;
 }
 
-.nav a {
-  font-size: 18px;
+
+html,
+p {
+  font-size: 16px;
 }
 
-.button-contaier.button {
-  font-size: 18px;
+// font-size: 14px
+.header, .nav {
+  font-size: $fz-14;
 }
 
-// contacts
+.list {
+  font-size: $fz-21;
+}
 
+.button {
+  font-size: $fz-16;
+}
+
+.contacts a,
+.card .title
+{
+  font-size: $fz-24;
+}
+
+.card.metrics {
+  font-size: $fz-34;
+}
+
+.title {
+  font-size: $fz-45;
+}
+
+.hero-title {
+  font-size: $fz-50;
+}
+
+/* BOLDNESS */
+.button {
+  font-weight: 500;
+}
+
+/* LINE HEIGHT */
+.subtitle {
+  line-height: 2rem;
+}
 
 
 // favors-prices
@@ -43,3 +87,11 @@ h2 {
   }
 }
 
+/* TEXT TRANSFORMATION */
+.nav, 
+.list 
+.button
+.card .title
+{
+  text-transform: uppercase;
+}
