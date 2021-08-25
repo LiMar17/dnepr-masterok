@@ -77,19 +77,19 @@ html(lang="en")
   //- здесь заканчивается первая секция
 
   //- секция контакты
-  section.contacts.container
+  section.contacts.container.has-text-centered
 
-    h2.h2 Викликати майстра 
-    div.columns
+    h2.h2.is-size-2.is-uppercase.mb-4 Викликати майстра 
+    div.columns.is-align-items-center
       .column
-        a(href="tel:0661720352")
-          img
-          | 066 172 03 52
+        a(href="tel:0661720352" class="is-size-4")
+          img(src="img/operators/vod.png")
+          p 066 172 03 52
       .column
-        a(href="tel:0977533460")
-          img
-          | 097 753 34 60
-      .column
+        a(href="tel:0977533460" class="is-size-4")
+          img(src="img/operators/kievstar.png")
+          p 097 753 34 60
+      .column.callback
         a.button Зворотнiй зв'язок
         p Передзвонимо вам протягом 5 хвилин 
 

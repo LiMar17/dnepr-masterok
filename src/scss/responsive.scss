@@ -56,9 +56,26 @@ $desktop-l: 1440px;
           text-align: start;
         }
       }
-      // .button-container {
-      //     max-width: 235px;
-      // }
+    }
+
+    // contacts 
+
+    .contacts {
+      padding: 80px 15px;
+
+      .column {
+          height: 150px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+      }
+
+      .column {
+
+        img {
+          max-width: 80%;
+        }
+      }
     }
 }
 
@@ -106,14 +123,6 @@ $desktop-l: 1440px;
   }
 }
 
-// @media screen and (max-width: 1023px) {
-//     .header {
-//         margin: 0 5px 0 5px;
-//     }
-// }
-
-
-
 
 // adaptive to desktop-s<
 @media screen and (min-width: $desktop-s){
@@ -145,14 +154,6 @@ $desktop-l: 1440px;
         margin-bottom: 10px;
       }
     }
-
-    // .button-container {
-    //   max-width: 235px;
-    // }
-
-    // .is-orange {
-    //   padding: 20px 25px 20px 25px;
-    // }
 }
 
 

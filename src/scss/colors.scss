@@ -2,8 +2,11 @@ $white: white;
 $black: black;
 $yellow: rgb(235, 215, 36);
 $goldenrod: rgb(255, 230, 2);
+$light-grey: #8d99ae;
 $grey: rgb(160, 158, 158);
+$dark-grey: #54617a;
 $orange: #fab005;
+$dark-blue: #50a2eb;
 
 header {
   background: $black;
@@ -45,4 +48,37 @@ header {
       }
     }
   }
+}
+
+// contacts
+
+.contacts {
+
+  h2, a {
+    color: $dark-grey;
+  }
+
+  a {
+    transition: color .5s;
+  }
+
+  a:hover {
+    color: $dark-blue;
+  }
+
+  .callback {
+
+    .button {
+      background: $orange;
+      color: $white;
+      font-weight: bold;
+      border: 0;
+    }
+
+    p {
+      color: $light-grey;
+    }
+  }
+
+
 }
