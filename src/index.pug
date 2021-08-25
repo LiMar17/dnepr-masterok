@@ -5,9 +5,14 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     title Document
-    link(rel="stylesheet" href="scss/style.scss")
-    link(rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css")
+    
+    //- библиотеки
     link(rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css")
+    link(rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css")
+
+    //- наши стили
+    link(rel="stylesheet" href="fonts/Roboto/Roboto.css")
+    link(rel="stylesheet" href="scss/style.scss")
     link(rel="stylesheet" href="scss/responsive.scss")
   body  
     header.has-text-centered
@@ -20,10 +25,6 @@ html(lang="en")
             i.fas.fa-clock 
             | Працюємо цілодобово
           .info
-            //- you need to make links 'callable'
-            //- this means when you click,
-            //- you make instant call from any device
-            //- google how to make this
             a(href='tel:0661720352')
               i.fas.fa-mobile 
               | 066 172 03 52
@@ -31,12 +32,9 @@ html(lang="en")
             a(href='tel:0977533460') 
               i.fas.fa-mobile 
               | 097 753 34 60
-            //- PLEASE, compare your code & mine. 
-            //- try to understand what was improved
-            //- and how to write more consious & effective code
+    //- здесь заканчивается хедер
 
     .background-image 
-        //- first-section-vstup
         .intro
           .menu  
             .logo 
@@ -76,6 +74,24 @@ html(lang="en")
             .right-column 
               .contacts-phone
                 img(src="img/2.png" alt="")
+  //- здесь заканчивается первая секция
+
+  //- секция контакты
+  section.contacts.container
+
+    h2.h2 Викликати майстра 
+    div.columns
+      .column
+        a(href="tel:0661720352")
+          img
+          | 066 172 03 52
+      .column
+        a(href="tel:0977533460")
+          img
+          | 097 753 34 60
+      .column
+        a.button Зворотнiй зв'язок
+        p Передзвонимо вам протягом 5 хвилин 
 
 
 

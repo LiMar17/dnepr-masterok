@@ -4,39 +4,39 @@
 */
 
 // create a row
-.columns {
-  display: flex;
-  // remove bulma's negative margins for our columns
-  margin: 0; 
-}
+// .columns {
+//   display: flex;
+//   // remove bulma's negative margins for our columns
+//   margin: 0; 
+// }
 
-// create columns with
-.columns-between {
-  @extend .columns;
-  justify-content: space-between;
-}
+// // create columns with
+// .columns-between {
+//   @extend .columns;
+//   justify-content: space-between;
+// }
 
-.columns-around {
-  @extend .columns;
-  justify-content: space-around;
-}
+// .columns-around {
+//   @extend .columns;
+//   justify-content: space-around;
+// }
 
-// create columns with
-// justify-content: space-between &
-// align-items: center;
-.columns-between-valigned {
-  @extend .columns-between;
-  align-items: center;
-}
+// // create columns with
+// // justify-content: space-between &
+// // align-items: center;
+// .columns-between-valigned {
+//   @extend .columns-between;
+//   align-items: center;
+// }
 
-/* SIZING */
-.spaced-around {
-  div {
-    margin-right: 1rem;
+// /* SIZING */
+// .spaced-around {
+//   div {
+//     margin-right: 1rem;
 
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-}
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+// }
 

@@ -4,7 +4,7 @@
 @import 'helpers';
 
 .container {
-    padding: 10px 0 10px 0;
+    padding: 10px 15px;
 }
 
 .info {
@@ -64,34 +64,7 @@
     }
     
 }
-    // .buttons {
-    //     display: flex;
-    //     .second-button {
-    //         margin-left: 50px;
-    //         background-color: rgb(255, 238, 0);
-    //         color: black;
-    //         border-radius: 20px;
-    //         border: black;
-    //         width: 230px;
-    //         height: 75px;
-    //     }
-    //     .first-button {
-    //         background-color: black;
-    //         color: rgb(255, 238, 0);
-    //         border-radius: 20px;
-    //         border: rgb(255, 238, 0);
-    //         width: 230px;
-    //         height: 75px;
-    //     }
-    //     .first-button:hover {
-    //         color: black;
-    //         background-color: rgb(255, 238, 0);
-    //         border: black;
-    //     }
-    //     .second-button:hover {
-    //         background-color: black;
-    //         color: rgb(255, 238, 0);
-    //         border: rgb(255, 238, 0);
-    //     }
-    // }
 
+h2 {
+    font-size: 3rem;
+}
