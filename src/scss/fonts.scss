@@ -1,3 +1,5 @@
+@import 'colors';
+// @import 'helpers/helpers';
 // точка отчета -- наш html. 
 // все остальные шрифты будут брать
 // размер от него (rem, em и т.д)
@@ -6,7 +8,66 @@
 // https://habr.com/ru/post/280125/
 // https://learn.javascript.ru/css-units
 
-$font-size-regular: 16px;
+
+// todo: check elements, are they still same? 
+
+.description {
+  font-size: $description-fz;
+}
+
+// site links
+.menu {
+
+  a {
+    font-size: $menu-fz;
+    color: $white-transparency;
+  }
+}
+
+.title {
+  font-size: $title-fz;
+}
+
+// grouped by text transformation
+.title, .menu a {
+  text-transform: uppercase;
+}
+
+// grouped by color
+.title, .description {
+  color: $white;
+}
+
+
+
+
+// todo:
+// unity fonts by
+// colors, text transormation
+// and size
+
+// page elements font fize
+$description-fz: 0.9rem; // 14px
+$menu-fz: 0.9rem; // 14px
+$button-fz: 1rem; // 16px
+$subtitle-fz: 1.2rem; // 18px
+
+$list-fz: 1.4rem; // 20px
+$links-fz: 1.7rem; // 24px
+$letters-fz: 2.4rem; // 34px
+
+// basic font size
+$page-fz: 16px;
+// todo: always uppercased?
+
+// titles
+$hero-title-fz: 3.5rem; // 50px
+$title-fz: 3.2rem; // 45px 
+// todo: always uppercased?
+
+
+
+
 
 html {
   font-size: $font-size-regular;

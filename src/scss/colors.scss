@@ -1,5 +1,5 @@
 $white: white;
-$white-transparent: rgba(255,255,255,.65);
+$white-transparency: rgba(255,255,255,.65);
 
 $almost-black: #222;
 $black: black;
@@ -16,7 +16,6 @@ $orange: #fab005;
 
 header {
   background: $almost-black;
-  color: $white;
 }
 
 .info {

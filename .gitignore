@@ -1,9 +1,4 @@
 node_modules
 .cache
 dist
-# rename file, change extension to .md
-# why? 
-# md stands for markdown. Markdown is a special language for better formatting
-# check it out and try to use it in your future notes in the project
-# Mark, please check out the markdown syntax
-# https://www.markdownguide.org/basic-syntax/#html
+.vscode
