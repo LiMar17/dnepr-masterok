@@ -75,21 +75,6 @@ p {
   line-height: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* TEXT TRANSFORMATION */
 .nav, 
 .list 
@@ -98,42 +83,3 @@ p {
 {
   text-transform: uppercase;
 }
-
-// site links
-.menu {
-
-  a {
-    font-size: $menu-fz;
-    color: $white-transparency;
-  }
-}
-
-.title {
-  font-size: $title-fz;
-}
-
-// grouped by text transformation
-.title, .menu a {
-  text-transform: uppercase;
-}
-
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  font-family: 'Roboto Light', sans-serif;
-}
-
-.nav a {
-  font-size: 18px;
-}
-
-.button-contaier.button {
-  font-size: 18px;
-}
-
-// contacts
-
-

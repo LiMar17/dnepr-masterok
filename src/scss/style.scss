@@ -1,7 +1,8 @@
 // import another files to use their code
 @import 'colors';
 @import 'fonts';
-@import 'helpers';
+@import 'helpers/helpers';
+@import 'spacing';
 
 .container {
     padding: 10px 15px;
