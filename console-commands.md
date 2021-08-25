@@ -11,6 +11,8 @@
 
 - git pull (витягнути зміни)
 
+$ git add . && git commit -m ""
+
 # Bundler commands
 - parcel src/index.pug (run parcel bundler)
 - yarn dev (тоже самое что сверху)
