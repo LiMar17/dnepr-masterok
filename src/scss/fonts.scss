@@ -1,4 +1,20 @@
+// точка отчета -- наш html. 
+// все остальные шрифты будут брать
+// размер от него (rem, em и т.д)
+
+// Почитай эти статьи, чтобы разобраться
+// https://habr.com/ru/post/280125/
+// https://learn.javascript.ru/css-units
+
+
+html {
+  font-size: $font-size-regular;
+}
+
+
+
 $big: 60px;
+
 
 body {
   font-family: 'Roboto', sans-serif;

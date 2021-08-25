@@ -1,15 +1,21 @@
 $white: white;
+$white-transparent: rgba(255,255,255,.65);
+
+$almost-black: #222;
 $black: black;
-$yellow: rgb(235, 215, 36);
-$goldenrod: rgb(255, 230, 2);
-$light-grey: #8d99ae;
+
 $grey: rgb(160, 158, 158);
+$light-grey: #8d99ae;
 $dark-grey: #54617a;
-$orange: #fab005;
+
 $dark-blue: #50a2eb;
 
+$goldenrod: rgb(255, 230, 2);
+$yellow: rgb(235, 215, 36);
+$orange: #fab005;
+
 header {
-  background: $black;
+  background: $almost-black;
   color: $white;
 }
 
