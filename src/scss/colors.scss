@@ -73,6 +73,14 @@ p {
   background: $orange;
 }
 
+.card-footer {
+  background: $light-blue;
+}
+
+.card {
+  background: $light-blue;
+}
+
 /* TRANSITIONS */
 .button,
 a
@@ -89,3 +97,19 @@ a
 .button.price-button {
   border: 2px solid $white;
 }
+
+
+
+
+
+
+
+// // MARK'S CODE
+// .favors-prices {
+//   h2 {
+//     color: $dark-grey;
+//   }
+//   .subtitle {
+//     color: $light-grey;
+//   }
+// }
