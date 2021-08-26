@@ -1,5 +1,7 @@
 @import 'resolutions';
 @import 'fonts';
+@import 'flex';
+@import 'sizing';
 
 
 
@@ -77,11 +79,7 @@
       }
     }
 
-    // service-section
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-    }
+
 }
 
 

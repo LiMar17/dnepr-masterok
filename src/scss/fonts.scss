@@ -27,7 +27,7 @@ html {
 
 .title,
 .subtitle,
-.card .description
+.card-footer
 {
   font-family: 'Roboto Light', sans-serif;
 }
@@ -54,7 +54,7 @@ p
 }
 
 .contacts a,
-.card .title
+.card .card-title :is(h3, h4, h5, h6)
 {
   font-size: $fz-24;
 }
@@ -87,14 +87,15 @@ p
 .nav, 
 .list 
 .button
-.card .title
+.card-title
 {
   text-transform: uppercase;
 }
 
 /* TEXT ALIGNING */
-
-
+.card.service {
+  text-align: center;
+}
 
 
 // MARK'S CODE

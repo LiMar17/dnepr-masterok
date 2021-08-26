@@ -1,7 +1,8 @@
 @import 'colors';
 @import 'fonts';
 @import 'helpers/helpers';
-@import 'spacing';
+@import 'sizing';
+@import 'flex';
 @import 'responsive/responsive';
 
 .container {
@@ -92,7 +93,7 @@ h2 {
 
 .card-img {
     img {
-    border-radius: 10px;
+        border-radius: 10px;
     }
 }
 
@@ -100,6 +101,3 @@ h2 {
     border-top: none;
 }
 
-.card {
-    box-shadow: none;
-}

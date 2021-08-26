@@ -15,7 +15,9 @@ $orange: #fab005;
 
 /* FONT COLORS */
 html, 
-p {
+p,
+.card .card-footer
+{
   color: $light-grey;
 }
 
@@ -37,7 +39,7 @@ p {
 
 .title,
 .contacts a,
-.card .title
+.card .card-title :is(h3, h4, h5, h6)
 {
   color: $dark-grey;
 }
@@ -48,8 +50,8 @@ p {
   color: $grey;
 }
 
-.card.metrics .description,
-.card.is-horizontal .title,
+.card.metrics .card-footer,
+.card.is-horizontal .card-title,
 .footer 
 {
   color: $orange;
@@ -65,20 +67,15 @@ p {
   background: $black;
 }
 
-.service-section {
+.service-section, 
+.card,
+.card-footer
+{
   background: $light-blue;
 }
 
 .button.is-orange {
   background: $orange;
-}
-
-.card-footer {
-  background: $light-blue;
-}
-
-.card {
-  background: $light-blue;
 }
 
 /* TRANSITIONS */
@@ -98,18 +95,11 @@ a
   border: 2px solid $white;
 }
 
+/* SHADOWS */;
+.card {
+    box-shadow: none;
+}
 
-
-
-
-
-
-// // MARK'S CODE
-// .favors-prices {
-//   h2 {
-//     color: $dark-grey;
-//   }
-//   .subtitle {
-//     color: $light-grey;
-//   }
-// }
+.card .card-img img {
+    box-shadow: 0 3px 3px -2px rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
