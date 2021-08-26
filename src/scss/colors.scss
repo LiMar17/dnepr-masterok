@@ -80,18 +80,6 @@ a
   transition: all .8s;
 }
 
-
-// favors-prices
-.favors-prices {
-  h2 {
-    color: $dark-grey;
-  }
-  .subtitle {
-    color: $light-grey;
-  }
-}
-
-
 /* HOVERS */
 .contacts a:hover {
   color: $dark-blue;
@@ -100,4 +88,20 @@ a
 /* BORDERS */
 .button.price-button {
   border: 2px solid $white;
+}
+
+
+
+
+
+
+
+// MARK'S CODE
+.favors-prices {
+  h2 {
+    color: $dark-grey;
+  }
+  .subtitle {
+    color: $light-grey;
+  }
 }

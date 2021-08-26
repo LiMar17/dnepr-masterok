@@ -79,7 +79,7 @@ html(lang="en")
   //- секция контакты
   section.contacts.container.has-text-centered
 
-    h2.h2.is-size-2.is-uppercase.mb-4 Викликати майстра 
+    h2.title.is-size-2.is-uppercase.mb-4 Викликати майстра 
     div.columns.is-align-items-center
       .column
         a(href="tel:0661720352" class="is-size-4")
@@ -95,39 +95,72 @@ html(lang="en")
   //- конец секции контакты
 
   //- секция Услуги и цены 
-  .third-section 
-    section.favors-prices.container.has-text-centered
-      h2.h2.is-uppercase.mb-4 НАШІ ПОСЛУГИ ТА ЦІНИ
+  section.favors-prices.has-text-centered
+    .container
+      h2.title.is-uppercase.mb-4 НАШІ ПОСЛУГИ ТА ЦІНИ
       div.subtitle 
         | Ціна послуг з розкриття замків залежить від конструкції замка і ступеня складності поломки. 
         | <br>Помилковий виклик — 500 грн.
         | <br>Перестій майстра — 1 година — 1000 грн.
       .cards 
-        .first-card
-          .header.card-img 
-            img(src="", alt="")
+        //- FIRST CARD
+        .card.service 
+          header.card-img 
+            img(src="img/open-door.jpg", alt="")
           main.card-title 
             h3 ТЕРМІНОВЕ ВІДКРИТТЯ ДВЕРЕЙ 
-          footer.car-footer 
+          footer.card-footer 
             | Вартість від 400 грн
             | залежить від ступеня складності замку
-        .second-card
-          .header.card-img 
-            img(src="", alt="")
+        //- SECOND CARD
+        .card.service 
+          header.card-img 
+            img(src="img/open-car.jpg", alt="")
           main.card-title 
             h3 ТЕРМІНОВЕ ВІДКРИТТЯ АВТО
-          footer.car-footer 
+          footer.card-footer 
             | Вартість від 400 грн
             | залежить від ступеня складності замку
-        .third-card
-          .header.card-img 
-            img(src="", alt="")
+        //- THIRD CARD
+        .card.service 
+          header.card-img 
+            img(src="img/open-safe.jpg", alt="")
           main.card-title 
             h3 ТЕРМІНОВЕ ВІДКРИТТЯ СЕЙФА
-          footer.car-footer 
+          footer.card-footer 
             | Вартість від 400 грн
             | залежить від ступеня складності замку
-
+        //- FOURTH CARD
+        .card.service 
+          header.card-img 
+            img(src="img/replacing-locks.jpg", alt="")
+          main.card-title 
+            h3 ЗАМІНА ЗАМКІВ
+          footer.card-footer 
+            | Вартість від 400 грн
+            | залежить від ступеня складності замку
+        //- FIFTH CARD
+        .card.service 
+          .card-img 
+            img(src="img/replacing-the-night-valve.jpg", alt="")
+          main.card-title 
+            h3 ЗАМІНА НІЧНОЇ ЗАСУВКИ
+          .card-description
+            | Вартість від 400 грн
+            | залежить від ступеня складності замку
+          .card-button 
+            a.button ТЕРМІНОВО ВИКЛИКАТИ МАЙСТРА
+        //- SIXTH CARD
+        .card.service 
+          .card-img 
+            img(src="img/viber.png", alt="")
+          .card-title 
+            h3 УТОЧНИТЬ ВАРТІСТЬ
+          .card-description  
+            | Для точного розрахунку відправте фото замку
+            | нажмите для отправки фото
+          .card-button 
+            a.button НАДІСЛАТИ ФОТО
 
          
 

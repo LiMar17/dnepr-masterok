@@ -76,16 +76,6 @@ p {
 }
 
 
-// favors-prices
-.favors-prices {
-  h2 {
-    font-size: 2.2rem;
-  }
-  .subtitle {
-    font-size: 14px;
-    line-height: 1.5rem;
-  }
-}
 
 /* TEXT TRANSFORMATION */
 .nav, 
@@ -94,4 +84,19 @@ p {
 .card .title
 {
   text-transform: uppercase;
+}
+
+
+
+
+
+// MARK'S CODE
+.favors-prices {
+  h2 {
+    font-size: 2.2rem;
+  }
+  .subtitle {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
 }
