@@ -85,7 +85,21 @@ h2 {
 }
 
 
-// favors-prices
-.third-section {
-    background: rgb(246 252 255);
+// // favors-prices
+// .third-section {
+//     background: rgb(246 252 255);
+// }
+
+.card-img {
+    img {
+    border-radius: 10px;
+    }
+}
+
+.card-footer {
+    border-top: none;
+}
+
+.card {
+    box-shadow: none;
 }
