@@ -13,14 +13,13 @@ html(lang="en")
     //- наши стили
     link(rel="stylesheet" href="fonts/Roboto/Roboto.css")
     link(rel="stylesheet" href="scss/style.scss")
-    link(rel="stylesheet" href="scss/responsive.scss")
   body  
-    header.has-text-centered
-      .container.header
+    header.header
+      .container.has-text-centered
         .slogan.info
           i.fas.fa-unlock-alt
           | Відкриваємо замки будь-якої складності
-        .contacts
+        .description
           .info 
             i.fas.fa-clock 
             | Працюємо цілодобово
@@ -93,6 +92,12 @@ html(lang="en")
         a.button Зворотнiй зв'язок
         p Передзвонимо вам протягом 5 хвилин 
 
-
+  .card.service
+    header.card-img
+      img
+    main.card-title
+      h3
+    footer.card-footer
+      p
 
 

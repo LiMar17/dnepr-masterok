@@ -1,4 +1,4 @@
-$fz-14: 0.9rem;
+// max font size
 $fz-16: 1rem;
 $fz-18: 1.25rem;
 $fz-20: 1.4rem;
@@ -7,6 +7,10 @@ $fz-24: 1.7rem;
 $fz-34: 2.4rem;
 $fz-45: 3.2rem;
 $fz-50: 3.5rem;
+
+// responsive fonts
+$reducer: 30%;
+$scaler: 2vw;
 
 // точка отчета -- наш html. 
 // все остальные шрифты будут брать
@@ -28,23 +32,25 @@ html {
   font-family: 'Roboto Light', sans-serif;
 }
 
-
-html,
-p {
+/* FONT SIZES */
+html {
   font-size: 16px;
 }
 
-// font-size: 14px
-.header, .nav {
-  font-size: $fz-14;
-}
-
-.list {
-  font-size: $fz-21;
+.header, 
+.nav,
+p
+{
+  // font-size: $fz-16;
+  font-size: clamp(13px, 13px + 1vw, 20px);
 }
 
 .button {
   font-size: $fz-16;
+}
+
+.list {
+  font-size: $fz-21;
 }
 
 .contacts a,
@@ -83,3 +89,5 @@ p {
 {
   text-transform: uppercase;
 }
+
+/* TEXT ALIGNING */
