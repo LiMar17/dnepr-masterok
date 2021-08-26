@@ -77,6 +77,12 @@ $desktop-l: 1440px;
         }
       }
     }
+
+    // service-section
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+    }
 }
 
 
@@ -177,3 +183,4 @@ $desktop-l: 1440px;
       }
     }
 }
+
