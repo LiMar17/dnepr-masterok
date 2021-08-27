@@ -1,5 +1,6 @@
 // max font size
 $fz-16: 1rem;
+$fz-17: 1.1rem;
 $fz-18: 1.25rem;
 $fz-20: 1.4rem;
 $fz-21: 1.5rem;
@@ -7,18 +8,6 @@ $fz-24: 1.7rem;
 $fz-34: 2.4rem;
 $fz-45: 3.2rem;
 $fz-50: 3.5rem;
-
-// responsive fonts
-$reducer: 30%;
-$scaler: 2vw;
-
-// точка отчета -- наш html. 
-// все остальные шрифты будут брать
-// размер от него (rem, em и т.д)
-
-// Почитай эти статьи, чтобы разобраться
-// https://habr.com/ru/post/280125/
-// https://learn.javascript.ru/css-units
 
 /* FONT FAMILY */
 html {
@@ -41,8 +30,7 @@ html {
 .nav,
 p
 {
-  // font-size: $fz-16;
-  font-size: clamp(13px, 13px + 1vw, 20px);
+  font-size: $fz-17;
 }
 
 .button {
@@ -81,13 +69,12 @@ p
   line-height: 2rem;
 }
 
-
-
 /* TEXT TRANSFORMATION */
 .nav, 
 .list 
 .button
-.card-title
+.card-title,
+.card.metrics .card-footer
 {
   text-transform: uppercase;
 }

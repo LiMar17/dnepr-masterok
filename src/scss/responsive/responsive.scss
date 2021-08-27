@@ -1,28 +1,10 @@
 @import 'resolutions';
-@import 'fonts';
-@import 'flex';
-@import 'sizing';
-
-
+@import 'r-fonts';
+@import 'r-flex';
+@import 'r-sizing';
 
 // adaptive to tablet<
 @media screen and (min-width: $tablet) {
-    // header
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        // margin: 0 5px 0 5px;
-        .contacts {
-            display: flex;
-
-            .info {
-                margin: 0 0 0 10px;
-                font-size: 14px;
-            }
-        }
-    }
-
     // menu
     .menu {
       display: flex;
@@ -140,10 +122,10 @@
 // adaptive to desktop-s<
 @media screen and (min-width: $desktop-s){
     .header {
-        font-size: 18px;
+        // font-size: 18px;
         .contacts{
             .info {
-                font-size: 18px;
+                // font-size: 18px;
                 margin: 0 0 0 20px;
             }
         }

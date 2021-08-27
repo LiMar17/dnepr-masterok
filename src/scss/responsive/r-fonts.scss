@@ -1,5 +1,10 @@
 @import 'resolutions';
 
 @media screen and (min-width: $tablet) {
-
+  .header, 
+  .nav,
+  p
+  {
+    font-size: $fz-18;
+  }
 }

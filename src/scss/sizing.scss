@@ -1,4 +1,8 @@
 /* MARGINS */
+.columns {
+  margin: 0;
+}
+
 .title {
   margin: 0 0 3rem 0 !important;
 }
@@ -16,6 +20,13 @@
 }
 
 /* PADDINGS */
+.container {
+  padding: 1rem;
+}
+
+.stand-out {
+  padding: 2rem 0;
+}
 
 /* BORDER-RADIUS */
 .button.is-orange {

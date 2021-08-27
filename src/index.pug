@@ -16,21 +16,22 @@ html(lang="en")
   body  
     header.header
       .container.has-text-centered
-        .slogan.info
-          i.fas.fa-unlock-alt
-          | Відкриваємо замки будь-якої складності
-        .description
-          .info 
-            i.fas.fa-clock 
-            | Працюємо цілодобово
-          .info
-            a(href='tel:0661720352')
-              i.fas.fa-mobile 
-              | 066 172 03 52
-          .info  
-            a(href='tel:0977533460') 
-              i.fas.fa-mobile 
-              | 097 753 34 60
+        .columns
+          .column.slogan.info
+            i.fas.fa-unlock-alt
+            | Відкриваємо замки будь-якої складності
+          .column.description
+            .info 
+              i.fas.fa-clock 
+              | Працюємо цілодобово
+            .info
+              a(href='tel:0661720352')
+                i.fas.fa-mobile 
+                | 066 172 03 52
+            .info  
+              a(href='tel:0977533460') 
+                i.fas.fa-mobile 
+                | 097 753 34 60
     //- здесь заканчивается хедер
 
     .background-image 
@@ -94,7 +95,7 @@ html(lang="en")
   //- конец секции контакты
 
   //- секция Услуги и цены 
-  section.service-section.has-text-centered
+  section.service-section.stand-out.has-text-centered
     .container
       h2.title.is-uppercase НАШІ ПОСЛУГИ ТА ЦІНИ
       div.subtitle 
@@ -106,7 +107,7 @@ html(lang="en")
   //- конец service-section
 
   //- секция metrics
-  section.metrics-section
+  section.metrics-section.stand-out
     .container 
       .row.cards 
         include includes/card-metrics.pug

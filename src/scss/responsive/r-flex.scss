@@ -1,6 +1,12 @@
 @import 'resolutions';
 
 @media screen and (min-width: $tablet) {
+  // header
+  .header .columns {
+    align-items: center;
+    justify-content: space-between;
+  }
+
   // service-section
   .cards {
     display: flex;
