@@ -102,70 +102,7 @@ html(lang="en")
         | <br>Помилковий виклик — 500 грн.
         | <br>Перестій майстра — 1 година — 1000 грн.
       .cards 
-        //- FIRST CARD
-        .card.service 
-          header.card-img 
-            img(src="img/open-door.jpg", alt="")
-          main.card-title 
-            h3 ТЕРМІНОВЕ ВІДКРИТТЯ ДВЕРЕЙ 
-          footer.card-footer 
-             p 
-              | Вартість від 400 грн
-              | залежить від ступеня складності замка
-        //- SECOND CARD
-        .card.service 
-          header.card-img 
-            img(src="img/open-car.jpg", alt="")
-          main.card-title 
-            h3 ТЕРМІНОВЕ ВІДКРИТТЯ АВТО
-          footer.card-footer 
-             p 
-              | Вартість від 400 грн
-              | залежить від ступеня складності замка
-        //- THIRD CARD
-        .card.service 
-          header.card-img 
-            img(src="img/open-safe.jpg", alt="")
-          main.card-title 
-            h3 ТЕРМІНОВЕ ВІДКРИТТЯ СЕЙФА
-          footer.card-footer
-            p 
-              | Вартість від 400 грн
-              | залежить від ступеня складності замка
-        //- FOURTH CARD
-        .card.service 
-          header.card-img 
-            img(src="img/replacing-locks.jpg", alt="")
-          main.card-title 
-            h3 ЗАМІНА ЗАМКІВ
-          footer.card-footer 
-            p
-              | Вартість від 400 грн
-              | залежить від ступеня складності замка
-        //- FIFTH CARD
-        .card.service 
-          header.card-img 
-            img(src="img/replacing-the-night-valve.jpg", alt="")
-          main.card-title 
-            h3 ЗАМІНА НІЧНОЇ ЗАСУВКИ
-          footer.card-footer
-            p
-              | Вартість від 400 грн
-              | залежить від ступеня складності замка
-            .card-button 
-              a.button.is-orange ТЕРМІНОВО ВИКЛИКАТИ МАЙСТРА
-        //- SIXTH CARD
-        .card.service 
-          header.card-img 
-            img(src="img/viber.png", alt="")
-          main.card-title 
-            h3 УТОЧНИТИ ВАРТІСТЬ
-          footer.card-footer  
-            p
-              | Для точного розрахунку відправте фото замка
-              | натисніть для відправки фото
-            .card-button 
-              a.button.is-orange НАДІСЛАТИ ФОТО
+        include ./includes/card-service.pug
   //- конец service-section
 
   //- секция metrics
