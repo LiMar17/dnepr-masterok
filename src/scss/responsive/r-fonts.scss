@@ -9,6 +9,12 @@
   }
 }
 
+@media screen and (min-width: $mobile) {
+  .card.metrics .card-img {
+    font-size: $fz-45;
+  }
+}
+
 @media screen and (min-width: $desktop-s) {
   .card.metrics .card-img {
     font-size: $fz-50;
