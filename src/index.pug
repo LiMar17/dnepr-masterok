@@ -109,8 +109,9 @@ html(lang="en")
           main.card-title 
             h3 ТЕРМІНОВЕ ВІДКРИТТЯ ДВЕРЕЙ 
           footer.card-footer 
-            | Вартість від 400 грн
-            | залежить від ступеня складності замка
+             p 
+              | Вартість від 400 грн
+              | залежить від ступеня складності замка
         //- SECOND CARD
         .card.service 
           header.card-img 
@@ -118,17 +119,19 @@ html(lang="en")
           main.card-title 
             h3 ТЕРМІНОВЕ ВІДКРИТТЯ АВТО
           footer.card-footer 
-            | Вартість від 400 грн
-            | залежить від ступеня складності замка
+             p 
+              | Вартість від 400 грн
+              | залежить від ступеня складності замка
         //- THIRD CARD
         .card.service 
           header.card-img 
             img(src="img/open-safe.jpg", alt="")
           main.card-title 
             h3 ТЕРМІНОВЕ ВІДКРИТТЯ СЕЙФА
-          footer.card-footer 
-            | Вартість від 400 грн
-            | залежить від ступеня складності замка
+          footer.card-footer
+            p 
+              | Вартість від 400 грн
+              | залежить від ступеня складності замка
         //- FOURTH CARD
         .card.service 
           header.card-img 
@@ -136,8 +139,9 @@ html(lang="en")
           main.card-title 
             h3 ЗАМІНА ЗАМКІВ
           footer.card-footer 
-            | Вартість від 400 грн
-            | залежить від ступеня складності замка
+            p
+              | Вартість від 400 грн
+              | залежить від ступеня складності замка
         //- FIFTH CARD
         .card.service 
           header.card-img 
@@ -162,8 +166,14 @@ html(lang="en")
               | натисніть для відправки фото
             .card-button 
               a.button.is-orange НАДІСЛАТИ ФОТО
+  //- конец service-section
 
-         
+  //- секция metrics
+  section.metrics-section
+    .container 
+      .row.cards 
+        include includes/card-metrics.pug
+      
 
 
 

@@ -1,11 +1,11 @@
 @media screen and (min-width: $tablet) {
   .cards .card {
-    max-width: 50%;
+    width: 48%;
   }
 }
 
 @media screen and (min-width: $desktop-s) {
   .cards .card {
-    max-width: 32%;
+    width: 32%;
   }
 }

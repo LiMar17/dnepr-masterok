@@ -68,8 +68,8 @@ p,
 }
 
 .service-section, 
-.card,
-.card-footer
+.card.service,
+.card.service .card-footer
 {
   background: $light-blue;
 }

@@ -1,3 +1,5 @@
+@import 'resolutions';
+
 @media screen and (min-width: $tablet) {
   // service-section
   .cards {
@@ -6,3 +8,10 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (min-width: $desktop-s) {
+  .metrics-section .cards {
+    flex-wrap: nowrap;
+  }
+}
+
