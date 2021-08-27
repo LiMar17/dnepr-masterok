@@ -8,3 +8,9 @@
     font-size: $fz-18;
   }
 }
+
+@media screen and (min-width: $desktop-s) {
+  .card.metrics .card-img {
+    font-size: $fz-50;
+  }
+}

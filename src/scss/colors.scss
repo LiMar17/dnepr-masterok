@@ -39,13 +39,14 @@ p,
 
 .title,
 .contacts a,
-.card .card-title :is(h3, h4, h5, h6)
+.card .card-title :is(h3, h4, h5, h6),
+.card.metrics .card-img 
 {
   color: $dark-grey;
 }
 
 .form,
-.card.metrics
+.card.metrics .card-title
 {
   color: $grey;
 }
