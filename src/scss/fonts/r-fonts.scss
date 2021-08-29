@@ -1,4 +1,5 @@
-@import 'resolutions';
+@import 'configs';
+@import '../layout/resolutions';
 
 @media screen and (min-width: $tablet) {
   .header, 

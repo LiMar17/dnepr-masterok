@@ -1,7 +1,8 @@
-@import 'resolutions';
-@import 'r-fonts';
+@import '../layout/resolutions';
+// @import 'r-fonts';
 @import 'r-flex';
 @import 'r-sizing';
+@import 'r-layout';
 
 // adaptive to tablet<
 @media screen and (min-width: $tablet) {

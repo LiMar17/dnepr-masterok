@@ -1,0 +1,19 @@
+@import '../layout/resolutions';
+
+
+/* CONTAINER */;
+@media screen and (min-width: $desktop-s) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: $desktop-m) {
+  .container {
+    max-width: 1152px;
+  }
+}
+@media screen and (min-width: $desktop-l) {
+  .container {
+    max-width: 1344px;
+  }
+}
