@@ -1,0 +1,43 @@
+html, 
+p,
+.card .card-footer
+{
+  color: $light-grey;
+}
+
+.header, 
+.header a,
+.header a:hover, 
+.hero-title,
+.list,
+.button,
+.callback .title,
+.callback .subtitle
+{
+  color: $white;
+}
+
+.nav {
+  color: $almost-white;
+}
+
+.title,
+.contacts a,
+.card .card-title :is(h3, h4, h5, h6),
+.card.metrics .card-img 
+{
+  color: $dark-grey;
+}
+
+.form,
+.card.metrics .card-title
+{
+  color: $grey;
+}
+
+.card.metrics .card-footer,
+.card.is-horizontal .card-title,
+.footer 
+{
+  color: $orange;
+}

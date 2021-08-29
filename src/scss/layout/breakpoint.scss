@@ -1,5 +1,3 @@
-@import 'resolutions';
-
 @mixin phones-only {
   @media (max-width: $mobile-l) { @content; }
 }

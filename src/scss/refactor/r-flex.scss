@@ -1,5 +1,3 @@
-@import '../layout/resolutions';
-
 @media screen and (min-width: $tablet) {
   // header
   .header .columns {
@@ -15,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: $desktop-s) {
+@media screen and (min-width: $desktop) {
   .metrics-section .cards {
     flex-wrap: nowrap;
   }

@@ -1,0 +1,20 @@
+/* BACKGROUNDS */
+.header,
+.footer {
+  background: $almost-black;
+}
+
+.intro-section {
+  background: $black;
+}
+
+.service-section, 
+.card.service,
+.card.service .card-footer
+{
+  background: $light-blue;
+}
+
+.button.is-orange {
+  background: $orange;
+}

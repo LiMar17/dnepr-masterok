@@ -1,13 +1,14 @@
-@import '../layout/resolutions';
-
+.container {
+  margin: 0 auto;
+}
 
 /* CONTAINER */;
-@media screen and (min-width: $desktop-s) {
+@media screen and (min-width: $desktop) {
   .container {
     max-width: 960px;
   }
 }
-@media screen and (min-width: $desktop-m) {
+@media screen and (min-width: $desktop) {
   .container {
     max-width: 1152px;
   }

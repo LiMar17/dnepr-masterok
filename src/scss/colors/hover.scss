@@ -1,0 +1,11 @@
+/* TRANSITIONS */
+.button,
+a
+{
+  transition: all .8s;
+}
+
+/* HOVERS */
+.contacts a:hover {
+  color: $dark-blue;
+}

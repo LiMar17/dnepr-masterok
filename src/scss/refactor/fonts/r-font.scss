@@ -1,6 +1,3 @@
-@import 'configs';
-@import '../layout/resolutions';
-
 @media screen and (min-width: $tablet) {
   .header, 
   .nav,
@@ -16,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: $desktop-s) {
+@media screen and (min-width: $desktop) {
   .card.metrics .card-img {
     font-size: $fz-50;
   }
