@@ -7,15 +7,14 @@ html(lang="en")
     title Document
     
     //- библиотеки
-    link(rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css")
     link(rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css")
 
     //- наши стили
     link(rel="stylesheet" href="fonts/Roboto/Roboto.css")
-    link(rel="stylesheet" href="scss/style.scss")
+    link(rel="stylesheet" href="scss/bundle.scss")
   body  
     header.header
-      .container.has-text-centered
+      .container
         .columns
           .column.slogan.info
             i.fas.fa-unlock-alt
@@ -103,11 +102,60 @@ html(lang="en")
         | <br>Помилковий виклик — 500 грн.
         | <br>Перестій майстра — 1 година — 1000 грн.
       .cards 
-        include ./includes/card-service.pug
+        include includes/card/card-service.pug
   //- конец service-section
 
   //- секция metrics
   section.metrics-section.stand-out
     .container 
       .row.cards 
-        include includes/card-metrics.pug
+        include includes/card/card-metrics.pug
+  
+  //- advantages section
+  section.advantages-section.stand-out
+    .container
+      section
+        h2.title Наші переваги
+        h6.subtitle Компанія Дніпро-замок відрізняється досвідом і професійним підходом. Для своїх клієнтів ми надаємо максимально комфортні умови надання послуг.
+      
+      //- cards [advantages]
+      section.row
+        include includes/card/card-advantage.pug
+
+  //- disclaimer section
+  section.disclaimer.stand-out
+    .container
+      section
+        h2.title ПРИМІТКА
+        h6.subtitle Всі роботи з аварійного відкриття замків здійснюються ТІЛЬКИ при наявності документів на розкривати об'єкт!
+  
+  //- call-me-back form
+  section.callback-section.stand-out 
+    .container
+      section
+        h2.title ЗАМОВИТИ ДЗВІНОК
+        h6.subtitle ми передзвонимо протягом 5 хвилин
+      section
+        form.form
+          section.row
+            p Введіть ваш номер телефону
+            .mask 
+              input
+          section.row
+            button.button Відправити
+  
+  //- footer
+  footer.site-footer 
+    .container
+      .row
+        //- footer cards
+        include includes/card/card-footer.pug
+
+
+
+
+          
+
+
+        
+

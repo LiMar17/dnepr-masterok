@@ -1,0 +1,32 @@
+.header, 
+.nav,
+p
+{
+  font-size: $fz-17;
+}
+
+.button {
+  font-size: $fz-16;
+}
+
+.list {
+  font-size: $fz-21;
+}
+
+.contacts a,
+.card .card-title :is(h3, h4, h5, h6)
+{
+  font-size: $fz-24;
+}
+
+.card.metrics .card-title {
+  font-size: $fz-34;
+}
+
+.title {
+  font-size: $fz-45;
+}
+
+.hero-title {
+  font-size: $fz-50;
+}
