@@ -34,46 +34,44 @@ html(lang="en")
                 p 097 753 34 60
     //- здесь заканчивается хедер
 
-    .background-image 
-        .intro
-          .menu  
-            .logo 
-              a(href="/") 
-                img(src="img/logo.png" alt="")
-            .nav 
-              ul
-                li
-                  a(href="#") Послуги і ціни
-                li 
-                  a(href="#") Етапи 
-                li
-                  a(href="#") Факти
-                li
-                  a(href="#") Переваги
-                li
-                  a(href="#") Замовити дзвінок
-          .main-intro
-            .left-column  
-              h1.title.is-1.text АВАРІЙНЕ <br> ВІДКРИТТЯ ЗАМКІВ
-              ul.text
-                li
-                  | ПРИЇДЕМО ПРОТЯГОМ 20 ХВИЛИН                              
-                li 
-                  | ВІДКРИВАЄМО ВСІ ВИДИ ЗАМКІВ
-                li  
-                  | БЕЗ ПОШКОДЖЕННЯ ЗАМКУ
-                li  
-                  | КОНФІДЕНЦІЙНО
-                li  
-                  | від 600 грн
-              .button-container 
-                div
-                  button.button.is-orange ВИКЛИКАТИ МАЙСТРА
-                div
-                  button.button.is-price-button РОЗРАХУНОК ВАРТОСТІ
-            .right-column 
-              .contacts-phone
-                img(src="img/phone-with-contacts.png" alt="")
+    .intro.intro-section
+      
+      .parallax-overlay
+        .parallax
+      
+      .container
+        .menu  
+          .logo 
+            a(href="/") 
+              img(src="img/logo.png" alt="")
+          .nav 
+            ul
+              li
+                a(href="#") Послуги і ціни
+              li 
+                a(href="#") Етапи 
+              li
+                a(href="#") Факти
+              li
+                a(href="#") Переваги
+              li
+                a(href="#") Замовити дзвінок
+        .main-intro
+          .left-column.left  
+            h1.hero-title.text АВАРІЙНЕ <br> ВІДКРИТТЯ ЗАМКІВ
+            ul.title-description
+              li.item ПРИЇДЕМО ПРОТЯГОМ 20 ХВИЛИН                              
+              li.item ВІДКРИВАЄМО ВСІ ВИДИ ЗАМКІВ
+              li.item БЕЗ ПОШКОДЖЕННЯ ЗАМКУ
+              li.item КОНФІДЕНЦІЙНО
+              li.item від 600 грн
+            .buttons.button-container 
+              button.button.is-orange ВИКЛИКАТИ МАЙСТРА
+              button.button.is-price-button РОЗРАХУНОК ВАРТОСТІ
+
+          .right-column.right
+            //- .contacts-phone
+            img(src="./img/phone-contacts.png" alt="")
   //- здесь заканчивается первая секция
 
   //- секция контакты

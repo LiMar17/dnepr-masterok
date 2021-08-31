@@ -17,44 +17,9 @@
             list-style-type: none;
             a {
                 text-decoration: none;
-                color: rgb(70, 65, 65);
-            }
-            a:hover {
-                color: black;
             }
         }
     }
-}
-
-.main-intro {
-    h1 {
-        padding-bottom: 30px;
-    }
-    ul {
-        list-style-type: square;
-    }
-    li {
-        padding-bottom: 30px;
-    }
-}
-
-.button-container {
-    .button {
-        // font-size: 18px;
-        padding: 15px 30px;
-    }
-
-    .is-orange {
-        border-radius: 35px;
-        border: none;
-        margin: 0 0 15px 0;
-    }
-    .is-price-button {
-        border: 2px solid white;
-        border-radius: 5px;
-        // opacity: 10%;
-    }
-    
 }
 
 h2 {
