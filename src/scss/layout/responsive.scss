@@ -1,4 +1,5 @@
-@media screen and (min-width: $tablet) {
+
+@media screen and (min-width: $tablet-s) {
   // header
   .header .columns {
     align-items: center;
@@ -13,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $desktop-s) {
   .metrics-section .cards {
     flex-wrap: nowrap;
   }

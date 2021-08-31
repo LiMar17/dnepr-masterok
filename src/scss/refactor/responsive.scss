@@ -1,5 +1,5 @@
 // adaptive to tablet<
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $tablet-s) {
     // menu
     .menu {
       display: flex;
@@ -67,7 +67,7 @@
 
 
 // adaptive to mobile-s<
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $mobile-s) {
   // menu
   .menu {
       .logo {
@@ -115,7 +115,7 @@
 
 
 // adaptive to desktop-s<
-@media screen and (min-width: $desktop){
+@media screen and (min-width: $desktop-s){
     .header {
         // font-size: 18px;
         .contacts{
@@ -150,7 +150,7 @@
 
 
 // adaptive to desktop-l<
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $desktop-s) {
     .menu {
       margin: 0 100px 50px 100px;
     }

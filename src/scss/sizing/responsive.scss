@@ -1,18 +1,18 @@
 /* WIDTH & MAX-WIDTH */;
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $tablet-s) {
   .cards .card {
     width: 48%;
   }
 }
 
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $desktop-s) {
   .cards .card {
     width: 32%;
   }
 }
 
 /* PADDINGS */;
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $tablet-s) {
   .stand-out {
     padding: 4rem 0;
   }

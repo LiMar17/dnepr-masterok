@@ -1,4 +1,4 @@
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $tablet-s) {
   .header, 
   .nav,
   p
@@ -7,13 +7,13 @@
   }
 }
 
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $mobile-s) {
   .card.metrics .card-img {
     font-size: $fz-45;
   }
 }
 
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $desktop-s) {
   .card.metrics .card-img {
     font-size: $fz-50;
   }

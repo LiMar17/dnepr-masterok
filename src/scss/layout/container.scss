@@ -3,12 +3,12 @@
 }
 
 /* CONTAINER */;
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $desktop-s) {
   .container {
     max-width: 960px;
   }
 }
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $desktop-s) {
   .container {
     max-width: 1152px;
   }
