@@ -1,6 +1,9 @@
 /* RESET */;
 @import 'reset/default';
 
+/* HELPERS */;
+// don't create any file yet
+
 /* COLORS */;
 @import 'colors/config';
 @import 'colors/color';
@@ -13,22 +16,24 @@
 @import 'layout/resolution';
 @import 'layout/breakpoint';
 @import 'layout/container';
+@import 'layout/display';
+@import 'layout/responsive';
 
-/* REFACTOR */;
-@import 'refactor/fonts/config';
-@import 'refactor/fonts/align';
-@import 'refactor/fonts/font';
-@import 'refactor/fonts/r-font';
+/* FONTS */;
+@import 'fonts/config';
+@import 'fonts/family';
+@import 'fonts/size';
+@import 'fonts/align';
+@import 'fonts/transform';
+@import 'fonts/responsive';
 
-@import 'refactor/helpers/fonts';
-@import 'refactor/helpers/helpers';
+/* SIZING */;
+@import 'sizing/margin';
+@import 'sizing/padding';
+@import 'sizing/border-radius';
+@import 'sizing/responsive';
 
-@import 'refactor/sizing/sizing';
-@import 'refactor/sizing/r-sizing';
-
-@import 'refactor/flex';
-@import 'refactor/r-flex';
-
+/* TO REFACTOR */;
 @import 'refactor/style';
 @import 'refactor/responsive';
 
