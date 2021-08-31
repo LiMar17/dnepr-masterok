@@ -1,0 +1,71 @@
+@import '../colors/config.scss';
+@import '../layout/resolution.scss';
+
+.site-header {
+  background: $almost-black;
+  text-align: center;
+}
+
+.site-header,
+.site-header p,
+.site-header a {
+  color: $white;
+}
+
+.site-header i {
+  font-size: 25px;
+  margin: 0 0 15px 0;
+}
+
+.site-header .info i {
+  display: block;
+}
+
+@media screen and (min-width: $tablet-s) {
+
+  .site-header, 
+  .site-header p{
+    font-size: 16px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .site-header .row {
+    justify-content: space-between;
+  }
+
+  .site-header .right {
+    display: flex;
+  }
+
+  .site-header .info {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: $tablet-l) {
+  .site-header {
+
+    .right {
+      flex-grow: 1;
+      justify-content: flex-end;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      
+      a {
+        display: flex;
+        align-items: center;
+      }
+
+      i {
+        margin: 0 15px 0 0;
+      }
+    }
+  }
+
+}
