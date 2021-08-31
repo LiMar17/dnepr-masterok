@@ -57,17 +57,17 @@
     }
     
   // service-section
-  // .service-section.container {
-  //   padding-top: 80px;
-  //   padding-bottom: 80px;
-  // }
-
+  .service-section {
+     .subtitle {
+       margin-bottom: 2rem;
+     }
+  } 
 }
 
 
 
-// adaptive to mobile-s<
-@media screen and (min-width: $mobile-s) {
+// adaptive to mobile<
+@media screen and (min-width: $mobile) {
   // menu
   .menu {
       .logo {
@@ -110,6 +110,25 @@
   // service-section
   .service-section.container {
     padding: 40px 0;
+    .subtitle {
+        margin-bottom: 1.5rem;
+    }
+  }
+}
+
+
+// adaptive to mobile-s<
+@media screen and (min-width: $mobile-s){
+  .service-section{
+    .subtitle {
+      margin-bottom: 1.5rem;
+    } 
+  }
+
+  .metrics-section {
+    .card-img {
+      font-size: $fz-34;
+    }
   }
 }
 
