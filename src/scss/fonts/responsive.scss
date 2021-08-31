@@ -5,11 +5,25 @@
   {
     font-size: $fz-18;
   }
+
+  .service-section {
+    .title {
+      font-size: $fz-45;
+    }
+  }
 }
 
 @media screen and (min-width: $mobile) {
   .card.metrics .card-img {
     font-size: $fz-45;
+  }
+}
+
+@media screen and (min-width: $mobile-s) {
+  .service-section {
+    .title {
+      font-size: $fz-34;
+    }
   }
 }
 

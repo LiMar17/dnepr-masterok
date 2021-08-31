@@ -86,13 +86,20 @@ h2 {
 }
 
 // MARK'S CODE
-.favors-prices {
-  h2 {
-    font-size: 2.2rem;
-  }
-  .subtitle {
-    font-size: 14px;
-    line-height: 1.5rem;
+.service-section {
+    .title {
+        text-align: center;
+        margin: 0 0 1.2rem 0;
+    }
+    
+    .subtitle {
+        text-align: center;
+    }
+}
+
+.metrics-section {
+  p {
+    color: $orange;
   }
 }
 
