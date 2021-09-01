@@ -5,16 +5,14 @@
 .contacts a,
 .card .card-title :is(h3, h4, h5, h6)
 {
-  @include fz-medium;
-  // font-size: $fz-24;
-  // no need in responsive for .fa-icons
+  @include font-size-medium;
 }
 
 .site-header, 
 .nav,
 p
 {
-  font-size: $fz-17;
+  @include font-size-default;
 }
 
 .list {

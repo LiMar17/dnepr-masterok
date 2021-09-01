@@ -18,6 +18,7 @@
 @import 'layout/breakpoint';
 @import 'layout/container';
 @import 'layout/row';
+@import 'layout/column';
 @import 'layout/display';
 @import 'layout/responsive';
 
@@ -30,9 +31,8 @@
 @import 'fonts/transform';
 @import 'fonts/responsive';
 
-/* SIZING */;
+/* SPACING */;
 @import 'spacing/config';
-@import 'spacing/default';
 @import 'spacing/margin';
 @import 'spacing/padding';
 @import 'spacing/border-radius';

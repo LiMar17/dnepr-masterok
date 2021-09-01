@@ -1,8 +1,13 @@
 @import './config';
 
-/* HEADER */;
-.fa-icon {
-  margin: $margin-default;
+p,
+// all font-awesome icons
+.fa-icon,
+// card elements
+.card .card-title,
+.card .card-img
+{
+  margin: $margin-bottom-default;
 }
 
 .columns {
@@ -16,11 +21,4 @@
 .card
 {
   margin: 0 0 2rem 0;
-}
-
-.card .card-title,
-.card .card-img,
-.card-footer p
-{
-  margin: $margin-default;
 }

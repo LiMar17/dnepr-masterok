@@ -11,6 +11,18 @@
   }
 }
 
+.row .column {
+  @include on-tablet { 
+    flex-grow: 1;
+  }
+}
+
+.row .column.right {
+  @include on-tablet { 
+    justify-content: flex-end;
+  }
+}
+
 .row {
   @include on-desktop {
     

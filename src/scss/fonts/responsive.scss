@@ -1,23 +1,16 @@
 @import './config.scss';
 
-@mixin fz-default {
+@mixin font-size-default {
   font-size: $fz-larger;
   @include on-desktop { font-size: $fz-default; };
 }
 
-@mixin fz-medium {
+@mixin font-size-medium {
   font-size: $fz-large;
   @include on-desktop { font-size: $fz-larger; };
 }
 
 @media screen and (min-width: $tablet) {
-  .header, 
-  .nav,
-  p
-  {
-    font-size: $fz-18;
-  }
-
   .service-section {
     .title {
       font-size: $fz-45;

@@ -1,1 +1,17 @@
-$margin-default: 0 0 1em 0;
+// margins
+$margin-bottom-default: 0 0 1em 0;
+$margin-bottom-larger: 0 0 1.3em 0;
+
+// paddings
+$padding-x-default: 0 .5em;
+
+/* RESPONSIVE TEMPLATES */;
+@mixin padding-x-default {
+  padding: 0;
+  @include on-tablet { padding: $padding-x-default };
+}
+
+@mixin margin-bottom-default {
+  margin: $margin-bottom-default;
+  @include on-tablet { margin: $margin-bottom-larger };
+}
