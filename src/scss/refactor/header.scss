@@ -22,10 +22,14 @@
 }
 
 @media screen and (min-width: $tablet-s) {
-
+  
   .site-header, 
   .site-header p{
     font-size: 16px;
+  }
+  
+  .site-header p {
+    margin: 1em 0 0 0;
   }
 
   .row {
@@ -46,26 +50,28 @@
 }
 
 @media screen and (min-width: $tablet-l) {
-  .site-header {
 
-    .right {
-      flex-grow: 1;
-      justify-content: flex-end;
-    }
+  .site-header p {
+    margin: 0;
+  }
 
-    .info {
+  .site-header .right {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .site-header .info {
       display: flex;
       align-items: center;
-      
-      a {
-        display: flex;
-        align-items: center;
-      }
+  }
 
-      i {
-        margin: 0 15px 0 0;
-      }
-    }
+  .site-header .info a {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-header .info i {
+    margin: 0 15px 0 0;
   }
 
 }
