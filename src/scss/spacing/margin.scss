@@ -1,3 +1,10 @@
+@import './config';
+
+/* HEADER */;
+.fa-icon {
+  margin: $margin-default;
+}
+
 .columns {
   margin: 0;
 }
@@ -15,5 +22,5 @@
 .card .card-img,
 .card-footer p
 {
-  margin: 0 0 1.5rem 0;
+  margin: $margin-default;
 }

@@ -1,36 +1,26 @@
-html {
-  font-size: 18px;
+@import './config.scss';
+@import './responsive';
+
+.fa-icon,  
+.contacts a,
+.card .card-title :is(h3, h4, h5, h6)
+{
+  @include fz-medium;
+  // font-size: $fz-24;
+  // no need in responsive for .fa-icons
 }
 
-.header, 
+.site-header, 
 .nav,
 p
 {
   font-size: $fz-17;
 }
 
-.button {
-  font-size: $fz-16;
-}
-
 .list {
   font-size: $fz-21;
 }
 
-.contacts a,
-.card .card-title :is(h3, h4, h5, h6)
-{
-  font-size: $fz-24;
-}
-
 .card.metrics .card-title {
   font-size: $fz-34;
-}
-
-.title {
-  font-size: $fz-45;
-}
-
-.hero-title {
-  font-size: $fz-50;
 }

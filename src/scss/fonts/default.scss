@@ -1,0 +1,11 @@
+// default font size on the page
+html {
+  font-size: 18px;
+  @include on-tablet { font-size: 16px; }
+}
+
+.button { font-size: $fz-16; }
+
+// titles
+.hero-title { font-size: $fz-50; }
+.title { font-size: $fz-45; }

@@ -1,22 +1,6 @@
 @import '../colors/config';
 @import '../layout/resolution';
 
-.site-header {
-  background: $almost-black;
-  text-align: center;
-}
-
-.site-header,
-.site-header p,
-.site-header a {
-  color: $white;
-}
-
-.site-header i {
-  font-size: 25px;
-  margin: 0 0 15px 0;
-}
-
 .site-header .info i {
   display: block;
 }

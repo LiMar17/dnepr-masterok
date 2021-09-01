@@ -1,5 +1,6 @@
-/* RESET */;
-@import 'reset/default';
+/* DEFAULT */;
+@import 'default/reset';
+@import 'default/tags';
 
 /* HELPERS */;
 // don't create any file yet
@@ -22,6 +23,7 @@
 
 /* FONTS */;
 @import 'fonts/config';
+@import 'fonts/default';
 @import 'fonts/family';
 @import 'fonts/size';
 @import 'fonts/align';
@@ -29,10 +31,12 @@
 @import 'fonts/responsive';
 
 /* SIZING */;
-@import 'sizing/margin';
-@import 'sizing/padding';
-@import 'sizing/border-radius';
-@import 'sizing/responsive';
+@import 'spacing/config';
+@import 'spacing/default';
+@import 'spacing/margin';
+@import 'spacing/padding';
+@import 'spacing/border-radius';
+@import 'spacing/responsive';
 
 /* TO REFACTOR */;
 @import 'refactor/style';
