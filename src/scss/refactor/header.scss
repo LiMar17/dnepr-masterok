@@ -1,11 +1,5 @@
-@import '../colors/config.scss';
-@import '../layout/resolution.scss';
-
-.row {
-  @media screen and (min-width: $tablet-s) {
-    display: flex;
-  }
-}
+@import '../colors/config';
+@import '../layout/resolution';
 
 .site-header {
   background: $almost-black;
@@ -51,7 +45,7 @@
   }
 }
 
-@media screen and (min-width: $tablet-l) {
+@media screen and (min-width: $tablet) {
 
   .site-header p {
     margin: 0;

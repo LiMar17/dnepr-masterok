@@ -1,3 +1,18 @@
+@import './resolution';
+
 .row {
-  
+  display: block;
+}
+
+.row {
+  @include on-tablet { 
+    display: flex;
+    justify-content: space-between; 
+  }
+}
+
+.row {
+  @include on-desktop {
+    
+  }
 }
