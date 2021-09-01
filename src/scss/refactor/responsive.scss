@@ -90,23 +90,6 @@
       }
   }
 
-  // main-intro
-  .main-intro {
-      .left-column {
-          text-align: center;
-          h1 {
-              margin-top: 20px;
-              font-size: 35px;
-              padding-bottom: 0;
-          }
-          ul {
-              li {
-                  padding-bottom: 10px;
-              }
-          }
-      }
-  }
-
   // service-section
   .service-section.container {
     padding: 40px 0;
@@ -131,41 +114,6 @@
     }
   }
 }
-
-
-// adaptive to desktop-s<
-@media screen and (min-width: $desktop-s){
-    .header {
-        // font-size: 18px;
-        .contacts{
-            .info {
-                // font-size: 18px;
-                margin: 0 0 0 20px;
-            }
-        }
-    }
-
-    .menu {
-      .nav {
-         ul {
-          li {
-            a {
-              margin-right: 20px;
-            }
-          }
-        }
-      }
-    }
-
-    .main-intro {
-      margin: 50px 0 50px 150px;
-      li {
-        margin-bottom: 10px;
-      }
-    }
-}
-
-
 
 
 // adaptive to desktop-l<

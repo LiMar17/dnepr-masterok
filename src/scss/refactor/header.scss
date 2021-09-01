@@ -1,6 +1,12 @@
 @import '../colors/config.scss';
 @import '../layout/resolution.scss';
 
+.row {
+  @media screen and (min-width: $tablet-s) {
+    display: flex;
+  }
+}
+
 .site-header {
   background: $almost-black;
   text-align: center;
@@ -30,10 +36,6 @@
   
   .site-header p {
     margin: 1em 0 0 0;
-  }
-
-  .row {
-    display: flex;
   }
 
   .site-header .row {

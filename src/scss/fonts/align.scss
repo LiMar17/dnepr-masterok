@@ -1,5 +1,7 @@
+@import '../layout/resolution';
+
 body {
-  @include phones-only {
+  @media screen and (max-width: $tablet-s) {
     text-align: center;
   }
 }

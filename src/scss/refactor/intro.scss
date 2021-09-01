@@ -1,88 +1,92 @@
 @import '../colors/config.scss';
 @import '../layout/resolution.scss';
 
+ul {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.parallax-overlay {
+  z-index: -2;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: $black;
+  opacity: 0.6;
+}
+
+.parallax-overlay .parallax {
+  background-image: url('../img/parallax/parallax-mobile.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  height: 100%;
+}
+
 .intro-section {
   position: relative;
   z-index: 0;
-
-  .parallax-overlay {
-    z-index: -2;
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: $black;
-    opacity: 0.6;
-  }
-
-  .parallax {
-    background-image: url('../img/parallax/parallax-mobile.jpg');
-    background-attachment: fixed;
-    z-index: -1;
-    // display: block;
-    height: 100%;
-  }
-
-  .logo, .right {
-    text-align: center;
-  }
-
-
-  li, a {
-    display: block;
-  }
-
-  a{
-    padding: 10px 0;
-    color: $almost-white;
-
-    &:hover {
-      color: $white;
-    }
-  }
-
-  
-  .title-description {
-    color: $white;
-
-    .item {
-      line-height: 2;
-    }
-  }
-
-  .buttons {
-    margin: 0 0 25px 0;
-  }
-
-  .right {
-    margin: 0 0 25px 0;
-  }
 }
 
+.intro-section .logo, 
+.intro-section .right {
+  text-align: center;
+}
 
-.button {
+.intro-section li, 
+.intro-section a {
+  display: block;
+  font-size: 20px;
+}
+
+.intro-section a {
+  padding: 10px 0;
+  color: $almost-white;
+}
+
+.intro-section a:hover {
+    color: $white;
+}
+  
+.intro-section .title-description {
+  color: $white;
+}
+
+.intro-section .title-description .item {
+  line-height: 2;
+}
+
+.intro-section .buttons {
+  margin: 0 0 25px 0;
+}
+
+.intro-section .right {
+  margin: 0 0 25px 0;
+}
+
+.intro-section .button {
   padding: 15px 30px;
   display: inline-block;
   width: 90%;
   border-radius: 5px;
   background: transparent;
-
-  &.is-orange {
-    border: none;
-    margin: 0 0 15px 0;
-    color: $orange;
-    border: 2px solid $orange;
-  }
-
-  &.is-price-button {
-    border: 2px solid $white;
-  }
-
 }
 
+.intro-section .button.is-orange {
+  border: none;
+  margin: 0 0 15px 0;
+  color: $orange;
+  border: 2px solid $orange;
+}
+
+.intro-section .button.is-price-button {
+  border: 2px solid $white;
+}
 
 .hero-title {
   font-size: 35px;
@@ -92,7 +96,16 @@
   border-bottom: 1px solid $white;
 }
 
-ul {
-  margin: 15px 0;
-  padding: 0;
+@media screen and (min-width: $mobile-l) {
+
+}
+
+@media screen and (min-width: $tablet-s) {
+
+  .parallax-overlay .parallax {
+    background-image: url('../img/parallax/background-image.jpg');
+  }
+
+
+
 }
