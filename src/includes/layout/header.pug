@@ -1,29 +1,34 @@
 header.site-header
   .container
-    .row
 
+    .columns
       //- left header column
-      .column.left.slogan
-    
+      .column
         //- one card from left
-        .column
-          i.fa-icon.fas.fa-unlock-alt
-          p Відкриваємо замки будь-якої складності
+        div
+
+          .card-icon
+            i.fa-icon.fas.fa-unlock-alt
+          p.card-text.card-text Відкриваємо замки будь-якої складності
     
-      //- right header column
-      .column.right.row.description
-    
+      //- right header div
+      .column
         //- row with 3 cards
-        .column 
-          i.fa-icon.fas.fa-clock 
-          p Працюємо цілодобово
+        div
+          .card-icon
+            i.fa-icon.fas.fa-clock
+          p.card-text Працюємо цілодобово
     
-        .column
-          a(href='tel:0661720352')
-            i.fa-icon.fas.fa-mobile 
-            p 066 172 03 52
+        div
+          .card-icon
+            a(href='tel:0661720352')
+              i.fa-icon.fas.fa-mobile
+          p.card-text
+            a(href='tel:0661720352') 066 172 03 52
     
-        .column  
-          a(href='tel:0977533460') 
-            i.fa-icon.fas.fa-mobile 
-            p 097 753 34 60
+        div
+          .card-icon
+            a(href='tel:0977533460')
+              i.fa-icon.fas.fa-mobile
+          p.card-text
+            a(href='tel:0661720352') 097 753 34 60

@@ -1,0 +1,44 @@
+@import '../../configayout/header';
+
+.site-header {
+  background: $almost-black;
+}
+.site-header, 
+.site-header a,
+.site-header a:hover {
+  color: $white;
+}
+
+@media screen and (min-width: $tablet) {
+  
+  .site-header .info {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+
+  .site-header p {
+    margin: 0;
+  }
+
+  .site-header .right {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .site-header .info {
+      display: flex;
+      align-items: center;
+  }
+
+  .site-header .info a {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-header .info i {
+    margin: 0 15px 0 0;
+  }
+
+}

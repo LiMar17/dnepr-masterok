@@ -1,0 +1,23 @@
+@import '../../utils/responsive-fonts';
+
+.fa-icon,  
+.contacts a,
+.card .card-title :is(h3, h4, h5, h6)
+{
+  @include larger-font-size;
+}
+
+.site-header, 
+.nav,
+p
+{
+  @include default-font-size;
+}
+
+.list {
+  @include larger-font-size;
+}
+
+.card.metrics .card-title {
+  @include large-font-size;
+}

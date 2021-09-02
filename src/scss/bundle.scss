@@ -1,102 +1,17 @@
-/* BASIC PAGE STYLES */;
+// pre-defined bulma variables
+@import "page/configs/page/color";
 
-// Page-available styles, 
-// starting from colors, fonts, breakpoints
-// to responsive mixins and page elements
-// (links, titles, etc) 
+// import bulma library
+@import 'bulma/bulma';
 
-// common settings across directory
-@import './config/page/colors';
-@import './config/page/fonts';
-@import './config/page/resolutions';
-@import './config/page/spacing';
+/* Project stylesheets */
 
-// reset browser built-in styles
-@import './reset';
+// configs
+@import "page/configs/page/color";
+@import "page/configs/page/spacing";
+@import "page/configs/layout/header";
 
-// create default styles for page elements
-@import './elements/page/html';
-
-/* COMMON PAGE ELEMENTS (SEPARATED) */
-
-// elements config
-@import './config/elements/elements.scss';
-
-@import './elements/page/links';
-@import './elements/page/button';
-@import './elements/page/list';
-
-@import './elements/page/titles';
-
-@import './elements/page/section';
-@import './elements/page/form';
-
-/* LAYOUT ELEMENTS */
-
-@import './elements/layout/container';
-@import './elements/layout/row';
-@import './elements/layout/column';
-
-/* UTILITIES (MIXINS) */
-
-@import './utils/breakpoints';
-@import './utils/spacing';
-@import './utils/responsive-fonts';
-
-/* LAYOUT CONFIGURATION */
-
-
-/* LAYOUT COMPONENTS */
-
-// header configs
-@import './config/layout/header';
-
-@import './components/layout/header';
-
-
-
-
-
-// /* HELPERS */;
-// // don't create any file yet
-
-// /* COLORS */;
-// @import 'colors/config';
-// @import 'colors/color';
-// @import 'colors/background';
-// @import 'colors/hover';
-// @import 'colors/border';
-// @import 'colors/shadow';
-
-// /* LAYOUT */;
-// @import 'layout/resolution';
-// @import 'layout/breakpoint';
-// @import 'layout/container';
-// @import 'layout/row';
-// @import 'layout/column';
-// @import 'layout/display';
-// @import 'layout/responsive';
-
-// /* FONTS */;
-// @import 'fonts/config';
-// @import 'fonts/default';
-// @import 'fonts/family';
-// @import 'fonts/size';
-// @import 'fonts/align';
-// @import 'fonts/transform';
-// @import 'fonts/responsive';
-
-// /* SPACING */;
-// @import 'spacing/config';
-// @import 'spacing/margin';
-// @import 'spacing/padding';
-// @import 'spacing/border-radius';
-// @import 'spacing/responsive';
-
-// /* TO REFACTOR */;
-// @import 'refactor/style';
-// @import 'refactor/responsive';
-// @import 'refactor/draft.scss';
-// @import 'refactor/header.scss';
-// @import 'refactor/intro.scss';
-
+// layout
+@import "page/layout/container";
+@import "page/layout/columns";
+@import "page/layout/page";

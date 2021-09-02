@@ -1,0 +1,20 @@
+@media screen and (min-width: $tablet) {
+  .service-section .title {
+    font-size: $title-font-size;
+  }
+}
+  
+@media screen and (min-width: $mobile) {
+  .card.metrics .card-img {
+    font-size: $title-font-size;
+  }
+  .service-section .title {
+    font-size: $title-font-size;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .card.metrics .card-img {
+    font-size: $title-font-size;
+  }
+}
