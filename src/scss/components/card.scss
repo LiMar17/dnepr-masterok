@@ -1,0 +1,10 @@
+@import '../bulma/sass/base/generic';
+
+// reset default bulma card styles
+.card {
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: $body-color;
+  position: static;
+}

@@ -1,17 +1,17 @@
-// pre-defined bulma variables
-@import "page/configs/page/color";
+// page, elements, component configs
+// config use bulma, so don't import them after
+// library
+@import 'configs/all.config';
 
-// import bulma library
 @import 'bulma/bulma';
 
-/* Project stylesheets */
+// default generic page rules
+@import "page/default";
 
-// configs
-@import "page/configs/page/color";
-@import "page/configs/page/spacing";
-@import "page/configs/layout/header";
+// layout rules
+@import "layout/header";
+@import "layout/container";
+@import "layout/columns";
 
-// layout
-@import "page/layout/container";
-@import "page/layout/columns";
-@import "page/layout/page";
+// components
+@import "components/card.scss";

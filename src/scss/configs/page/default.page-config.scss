@@ -1,0 +1,16 @@
+/* COLORS */
+@import "../../bulma/sass/utilities/initial-variables";
+
+// define your brand colors below
+
+/* FONTS */
+$default-font-family: 'Roboto', 'Arial', sans-serif;
+$default-font-size: 16px;
+$default-color: $white;
+
+// change bulma variable
+$body-color: $default-color;
+
+/* SPACING */
+$container-padding-mobile: 1em;
+

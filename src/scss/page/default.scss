@@ -1,0 +1,16 @@
+@import '../bulma/sass/helpers/typography';
+@import '../configs/page/default.page-config';
+
+html {
+  font-size: $default-font-size;
+  font-family: $default-font-family;
+}
+
+body {
+  // fonts
+  @extend .is-size-5-mobile;
+  @extend .is-size-6-tablet;
+
+  // text centering on mobile
+  @extend .has-text-centered-mobile;
+}

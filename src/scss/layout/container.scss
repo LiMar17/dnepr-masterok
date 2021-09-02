@@ -1,0 +1,4 @@
+.container {
+  // enable padding on mobile devices
+  @include until($tablet) { padding: $container-padding-mobile; }
+}

@@ -1,0 +1,12 @@
+// change variables here
+@import '../configs/layout/header.config';
+
+.site-header {
+  background: $header-background;
+  color: $header-color;
+}
+
+.site-header .columns,
+.site-header .row {
+  align-items: $header-align-items;
+}
