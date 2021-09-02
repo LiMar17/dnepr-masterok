@@ -13,26 +13,9 @@ html(lang="en")
     link(rel="stylesheet" href="fonts/Roboto/Roboto.css")
     link(rel="stylesheet" href="scss/bundle.scss")
   body
-    header.site-header
-      .container
-        .row
-          .column.left.slogan
-            .column
-              i.fa-icon.fas.fa-unlock-alt
-              p Відкриваємо замки будь-якої складності
-          .column.right.row.description
-            .column 
-              i.fa-icon.fas.fa-clock 
-              p Працюємо цілодобово
-            .column
-              a(href='tel:0661720352')
-                i.fa-icon.fas.fa-mobile 
-                p 066 172 03 52
-            .column  
-              a(href='tel:0977533460') 
-                i.fa-icon.fas.fa-mobile 
-                p 097 753 34 60
-    //- здесь заканчивается хедер
+  
+    //- site header
+    include ./includes/layout/header.pug
 
     .intro.intro-section
       
@@ -75,19 +58,19 @@ html(lang="en")
   //- здесь заканчивается первая секция
 
   //- секция контакты
-  section.contacts.container.has-text-centered
+  section.contact-section.contacts.container.has-text-centered
 
     h2.title.is-size-2.is-uppercase.mb-4 Викликати майстра 
     div.columns.is-align-items-center
-      .column
+      .card.card-contacts.is-vertical.column
         a(href="tel:0661720352" class="is-size-4")
           img(src="img/operators/vod.png")
           p 066 172 03 52
-      .column
+      .card.card-contacts.is-vertical.column
         a(href="tel:0977533460" class="is-size-4")
           img(src="img/operators/kievstar.png")
           p 097 753 34 60
-      .column.callback
+      .card.card-contacts.is-vertical.column.callback
         a.button Зворотнiй зв'язок
         p Передзвонимо вам протягом 5 хвилин 
   //- конец секции контакты
@@ -118,7 +101,7 @@ html(lang="en")
         h6.subtitle Компанія Дніпро-замок відрізняється досвідом і професійним підходом. Для своїх клієнтів ми надаємо максимально комфортні умови надання послуг.
       
       //- cards [advantages]
-      section.row
+      section.row-wrap
         include includes/card/card-advantage.pug
 
   //- disclaimer section

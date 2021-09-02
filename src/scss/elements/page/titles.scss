@@ -1,0 +1,29 @@
+@import './../../config/elements/elements';
+
+/* TITLES */
+
+// All titles in one place. Perfect, isn't it?
+
+h1, 
+.hero-title { 
+  @include hero-title-font-size;
+  color: $white; 
+}
+
+h2, 
+h3, 
+.title { 
+  @include title-font-size;
+  color: $dark-grey;
+}
+
+h4,
+h5,
+.subtitle {
+  color: $white;
+}
+
+h6,
+.card-title {
+
+}

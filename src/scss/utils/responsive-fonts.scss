@@ -1,0 +1,19 @@
+/* MAKE FONTS RESPONSIVE. AGAIN! */;
+
+// simple mixins listed 
+// to make your fonts responsive
+
+@mixin default-font-size {
+  font-size: $larger-font-size;
+  @include on-desktop { font-size: $default-font-size; };
+}
+
+@mixin larger-font-size {
+  font-size: $large-font-size;
+  @include on-desktop { font-size: $larger-font-size; };
+}
+
+@mixin large-font-size {
+  font-size: $big-font-size;
+  @include on-desktop { font-size: $large-font-size; };
+}

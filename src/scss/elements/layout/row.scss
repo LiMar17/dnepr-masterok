@@ -1,0 +1,34 @@
+.row {
+  display: block;
+}
+
+.row {
+  @include on-tablet { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+}
+
+.row-wrap {
+  @extend .row;
+  flex-wrap: wrap;
+}
+
+.row .column {
+  @include on-tablet { 
+    flex-grow: 1;
+  }
+}
+
+.row .column.right {
+  @include on-tablet { 
+    justify-content: flex-end;
+  }
+}
+
+.row {
+  @include on-desktop {
+    
+  }
+}

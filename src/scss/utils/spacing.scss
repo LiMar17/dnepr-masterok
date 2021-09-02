@@ -1,0 +1,11 @@
+/* RESPONSIVE SPACING UTILITIES */;
+
+@mixin padding-x-default {
+  padding: 0;
+  @include on-tablet { padding: $padding-x-default };
+}
+
+@mixin margin-bottom-default {
+  margin: $margin-bottom-default;
+  @include on-tablet { margin: $margin-bottom-larger };
+}

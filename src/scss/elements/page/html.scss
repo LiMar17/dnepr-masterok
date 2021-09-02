@@ -1,0 +1,18 @@
+@import './../../utils/breakpoints.scss';
+
+/* DEFAULT PAGE CONFIGURATION */
+
+// This file describes common page elements behaviour
+
+html, 
+body 
+{
+  font-family: $page-font-family;
+  font-size: $page-font-size;
+  color: $light-grey;
+
+  @include up-to-tablet { text-align: center; };
+  
+  // responsive font size 
+  @include on-tablet { font-size: 17px; }
+}

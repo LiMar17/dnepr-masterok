@@ -1,0 +1,20 @@
+/* ALL PAGE ELEMENTS SETTINGS */;
+
+// titles, links, lists, sections settings in one place
+
+/* TITLES */
+
+// Titles-specific font size
+$title-font-size: 3rem;
+$hero-title-font-size: 3.5rem;
+
+// title responsive font mixins
+@mixin title-font-size {
+  font-size: $large-font-size;
+  @include on-desktop { font-size: $title-font-size; };
+}
+
+@mixin hero-title-font-size {
+  font-size: $big-font-size;
+  @include on-desktop { font-size: $hero-title-font-size; };
+}

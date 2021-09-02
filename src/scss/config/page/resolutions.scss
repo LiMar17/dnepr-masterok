@@ -1,0 +1,11 @@
+// settings for responsive media queries
+
+$mobile: 425px; // small screens
+$tablet: 768px; // tablet screens
+$desktop: 1024px; // laptop screens
+
+// try avoiding this resolutions
+// to not overcomplicate your design
+$mobile-l: 599px; // large screens
+$desktop-m: 1216px; // container-specific size (yet)
+$desktop-l: 1440px; // screens up to 4k
