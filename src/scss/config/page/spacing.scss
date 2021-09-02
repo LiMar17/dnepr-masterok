@@ -1,10 +1,15 @@
 /* MARGINS, PADDING */
 
-// spacing settings
+// spacing settings for different resolutions
+// 
 
 // margins
 $margin-bottom-default: 0 0 1em 0;
-$margin-bottom-larger: 0 0 1.3em 0;
+// $margin-bottom-tablet: 0 0 1.3em 0;
+// $margin-bottom-desktop: 0 0 1.5em 0;
 
 // paddings
-$padding-x-default: 0 .5em;
+$padding-x-default: 0;
+$column-padding-x-mobile: 0;
+// $padding-x-tablet: 0 .5em;
+// $padding-x-desktop: 0 .5em;
